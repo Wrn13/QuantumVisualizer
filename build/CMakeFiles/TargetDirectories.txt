@@ -1,0 +1,9 @@
+/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles/quantumvisualizer.dir
+/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles/edit_cache.dir
+/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles/rebuild_cache.dir
+/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles/list_install_components.dir
+/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles/install.dir
+/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles/install/local.dir
+/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles/install/strip.dir
+/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles/quantumvisualizer_autogen_timestamp_deps.dir
+/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles/quantumvisualizer_autogen.dir
