@@ -11,10 +11,13 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QTextEdit>
 #include <QtWidgets/QToolBar>
+#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -23,6 +26,10 @@ class Ui_QuantumVisualizer
 {
 public:
     QWidget *centralWidget;
+    QHBoxLayout *horizontalLayout;
+    QWidget *DrawArea;
+    QVBoxLayout *PotentialSpecifications;
+    QTextEdit *PotentialDefinition;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -31,9 +38,26 @@ public:
     {
         if (QuantumVisualizer->objectName().isEmpty())
             QuantumVisualizer->setObjectName(QString::fromUtf8("QuantumVisualizer"));
-        QuantumVisualizer->resize(400, 300);
+        QuantumVisualizer->resize(1920, 1080);
         centralWidget = new QWidget(QuantumVisualizer);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
+        horizontalLayout = new QHBoxLayout(centralWidget);
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        DrawArea = new QWidget(centralWidget);
+        DrawArea->setObjectName(QString::fromUtf8("DrawArea"));
+
+        horizontalLayout->addWidget(DrawArea);
+
+        PotentialSpecifications = new QVBoxLayout();
+        PotentialSpecifications->setObjectName(QString::fromUtf8("PotentialSpecifications"));
+        PotentialDefinition = new QTextEdit(centralWidget);
+        PotentialDefinition->setObjectName(QString::fromUtf8("PotentialDefinition"));
+
+        PotentialSpecifications->addWidget(PotentialDefinition);
+
+
+        horizontalLayout->addLayout(PotentialSpecifications);
+
         QuantumVisualizer->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(QuantumVisualizer);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));

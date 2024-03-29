@@ -254,13 +254,27 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: \
  /usr/include/qt/QtCore/qcoreevent.h /usr/include/qt/QtCore/qeventloop.h \
  /usr/include/qt/QtGui/qguiapplication.h \
  /usr/include/qt/QtGui/qinputmethod.h /usr/include/qt/QtCore/qlocale.h \
- /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtWidgets/QMainWindow \
- /usr/include/qt/QtWidgets/QMenuBar /usr/include/qt/QtWidgets/qmenubar.h \
- /usr/include/qt/QtWidgets/qmenu.h /usr/include/qt/QtWidgets/qaction.h \
+ /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtWidgets/QHBoxLayout \
+ /usr/include/qt/QtWidgets/qboxlayout.h \
+ /usr/include/qt/QtWidgets/qlayout.h \
+ /usr/include/qt/QtWidgets/qlayoutitem.h \
+ /usr/include/qt/QtWidgets/qboxlayout.h \
+ /usr/include/qt/QtWidgets/qgridlayout.h \
+ /usr/include/qt/QtWidgets/QMainWindow /usr/include/qt/QtWidgets/QMenuBar \
+ /usr/include/qt/QtWidgets/qmenubar.h /usr/include/qt/QtWidgets/qmenu.h \
+ /usr/include/qt/QtWidgets/qaction.h \
  /usr/include/qt/QtWidgets/qactiongroup.h \
  /usr/include/qt/QtWidgets/QStatusBar \
  /usr/include/qt/QtWidgets/qstatusbar.h \
- /usr/include/qt/QtWidgets/QToolBar /usr/include/qt/QtWidgets/qtoolbar.h \
- /usr/include/qt/QtWidgets/QWidget /usr/include/qt/QtWidgets/qwidget.h \
+ /usr/include/qt/QtWidgets/QTextEdit \
+ /usr/include/qt/QtWidgets/qtextedit.h \
+ /usr/include/qt/QtWidgets/qabstractscrollarea.h \
+ /usr/include/qt/QtWidgets/qframe.h /usr/include/qt/QtGui/qtextdocument.h \
+ /usr/include/qt/QtCore/qurl.h /usr/include/qt/QtGui/qtextoption.h \
+ /usr/include/qt/QtGui/qtextcursor.h /usr/include/qt/QtGui/qtextformat.h \
+ /usr/include/qt/QtGui/qpen.h /usr/include/qt/QtWidgets/QToolBar \
+ /usr/include/qt/QtWidgets/qtoolbar.h \
+ /usr/include/qt/QtWidgets/QVBoxLayout /usr/include/qt/QtWidgets/QWidget \
+ /usr/include/qt/QtWidgets/qwidget.h \
  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include/moc_quantumvisualizer.cpp \
  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include/../../../src/view/quantumvisualizer.h

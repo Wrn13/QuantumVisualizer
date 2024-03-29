@@ -5,7 +5,7 @@
 #include <QScopedPointer>
 
 namespace Ui {
-class QuantumVisualizer;
+    class QuantumVisualizer;
 }
 
 class QuantumVisualizer : public QMainWindow
