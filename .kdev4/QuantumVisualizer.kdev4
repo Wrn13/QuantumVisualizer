@@ -15,5 +15,27 @@ Extra Arguments=
 Install Directory=/usr/local
 Runtime=Host System
 
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=quantumvisualizer
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00"\x00Q\x00u\x00a\x00n\x00t\x00u\x00m\x00V\x00i\x00s\x00u\x00a\x00l\x00i\x00z\x00e\x00r\x00\x00\x00"\x00q\x00u\x00a\x00n\x00t\x00u\x00m\x00v\x00i\x00s\x00u\x00a\x00l\x00i\x00z\x00e\x00r)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Kill Before Executing Again=4194304
+Project Target=QuantumVisualizer,quantumvisualizer
+Use External Terminal=false
+Working Directory=
+isExecutable=false
+
 [Project]
 VersionControlSupport=kdevgit

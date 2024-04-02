@@ -72,7 +72,7 @@ quantumvisualizer_autogen/timestamp: /usr/bin/moc
 quantumvisualizer_autogen/timestamp: /usr/bin/uic
 quantumvisualizer_autogen/timestamp: CMakeFiles/quantumvisualizer_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target quantumvisualizer"
-	/usr/bin/cmake -E cmake_autogen /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles/quantumvisualizer_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E cmake_autogen /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles/quantumvisualizer_autogen.dir/AutogenInfo.json Debug
 	/usr/bin/cmake -E touch /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/timestamp
 
 quantumvisualizer_autogen: CMakeFiles/quantumvisualizer_autogen

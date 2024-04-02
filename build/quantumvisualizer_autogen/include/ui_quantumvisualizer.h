@@ -45,6 +45,7 @@ public:
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         DrawArea = new QWidget(centralWidget);
         DrawArea->setObjectName(QString::fromUtf8("DrawArea"));
+        DrawArea->setGeometry(QRect(0, 0, 1000, 1000));
 
         horizontalLayout->addWidget(DrawArea);
 
@@ -52,6 +53,7 @@ public:
         PotentialSpecifications->setObjectName(QString::fromUtf8("PotentialSpecifications"));
         PotentialDefinition = new QTextEdit(centralWidget);
         PotentialDefinition->setObjectName(QString::fromUtf8("PotentialDefinition"));
+        PotentialDefinition->setGeometry(QRect(0, 0, 100, 100));
 
         PotentialSpecifications->addWidget(PotentialDefinition);
 

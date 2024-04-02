@@ -16,12 +16,29 @@
         <widget class="QWidget" name="centralWidget">
             <layout class="QHBoxLayout" name="horizontalLayout">
                 <item>
-                    <widget class="QWidget" name="DrawArea"/>
+                    <widget class="QWidget" name="DrawArea">
+                        <property name="geometry">
+                            <rect>
+                                <x>0</x>
+                                <width>1000</width>
+                                <height>1000</height>
+                            </rect>
+                        </property>
+                    </widget>
                 </item>
                 <item>
                     <layout class="QVBoxLayout" name="PotentialSpecifications">
                         <item>
-                            <widget class="QTextEdit" name="PotentialDefinition"/>
+                            <widget class="QLabel" name = "PotentialLabel"/>
+                            <widget class="QTextEdit" name="PotentialDefinition">
+                                <property name="geometry">
+                                    <rect>
+                                        <x>0</x>
+                                        <width> 100 </width>
+                                        <height> 100 </height>
+                                    </rect>
+                                </property>
+                            </widget>
                         </item>
                     </layout>
                 </item>
