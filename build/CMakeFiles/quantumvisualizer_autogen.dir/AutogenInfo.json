@@ -95,6 +95,18 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/PotentialSpecifications.h",
+			"MU",
+			"3JYSCEOBDA/moc_PotentialSpecifications.cpp",
+			null
+		],
+		[
+			"/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/drawArea.h",
+			"MU",
+			"3JYSCEOBDA/moc_drawArea.cpp",
+			null
+		],
+		[
 			"/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.h",
 			"MU",
 			"3JYSCEOBDA/moc_quantumvisualizer.cpp",
@@ -155,6 +167,16 @@
 	[
 		[
 			"/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/PotentialSpecifications.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/drawArea.cpp",
 			"MU",
 			null
 		],

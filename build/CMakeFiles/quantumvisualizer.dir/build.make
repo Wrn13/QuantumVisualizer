@@ -118,11 +118,41 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.cpp -o CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.s
 
+CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.o: CMakeFiles/quantumvisualizer.dir/flags.make
+CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.o: /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/drawArea.cpp
+CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.o: CMakeFiles/quantumvisualizer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.o -MF CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.o.d -o CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.o -c /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/drawArea.cpp
+
+CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/drawArea.cpp > CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.i
+
+CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/drawArea.cpp -o CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.s
+
+CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.o: CMakeFiles/quantumvisualizer.dir/flags.make
+CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.o: /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/PotentialSpecifications.cpp
+CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.o: CMakeFiles/quantumvisualizer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.o -MF CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.o.d -o CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.o -c /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/PotentialSpecifications.cpp
+
+CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/PotentialSpecifications.cpp > CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.i
+
+CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/PotentialSpecifications.cpp -o CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.s
+
 # Object files for target quantumvisualizer
 quantumvisualizer_OBJECTS = \
 "CMakeFiles/quantumvisualizer.dir/quantumvisualizer_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/quantumvisualizer.dir/src/main.cpp.o" \
-"CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o"
+"CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o" \
+"CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.o" \
+"CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.o"
 
 # External object files for target quantumvisualizer
 quantumvisualizer_EXTERNAL_OBJECTS =
@@ -130,12 +160,14 @@ quantumvisualizer_EXTERNAL_OBJECTS =
 quantumvisualizer: CMakeFiles/quantumvisualizer.dir/quantumvisualizer_autogen/mocs_compilation.cpp.o
 quantumvisualizer: CMakeFiles/quantumvisualizer.dir/src/main.cpp.o
 quantumvisualizer: CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o
+quantumvisualizer: CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.o
+quantumvisualizer: CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.o
 quantumvisualizer: CMakeFiles/quantumvisualizer.dir/build.make
 quantumvisualizer: /usr/lib/libQt5Widgets.so.5.15.12
 quantumvisualizer: /usr/lib/libQt5Gui.so.5.15.12
 quantumvisualizer: /usr/lib/libQt5Core.so.5.15.12
 quantumvisualizer: CMakeFiles/quantumvisualizer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable quantumvisualizer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable quantumvisualizer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/quantumvisualizer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

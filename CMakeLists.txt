@@ -14,6 +14,8 @@ find_package(Qt5Widgets CONFIG REQUIRED)
 set(quantumvisualizer_SRC
   src/main.cpp
   src/view/quantumvisualizer.cpp
+  src/view/drawArea.cpp
+  src/view/PotentialSpecifications.cpp
 )
 
 # Tell CMake to create the helloworld executable
