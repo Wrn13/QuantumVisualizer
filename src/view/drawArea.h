@@ -1,14 +1,14 @@
 #ifndef DRAWAREA_H
 #define DRAWAREA_H
 
-#include <QWidget>
+#include <QGraphicsView>
 #include <QScopedPointer>
 
 namespace Ui {
     class DrawArea;
 }
 
-class DrawArea : public QWidget
+class DrawArea : public QGraphicsView
 {
     Q_OBJECT
 

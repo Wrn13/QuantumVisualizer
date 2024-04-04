@@ -2,8 +2,7 @@
 #include <QGraphicsView>
 #include "ui_quantumvisualizer.h"
 
-DrawArea::DrawArea(QWidget *parent): QGraphicsView(parent), m_ui(new Ui::DrawArea){
-    m_ui->setOutput(this);
+DrawArea::DrawArea(QWidget *parent): QGraphicsView(parent){
 }
 
 DrawArea::~DrawArea() = default;

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-0128b053a205f9c57029.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QuantumVisualizer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "quantumvisualizer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quantumvisualizer-Debug-b4f3521758f220e75e61.json",
+					"name" : "quantumvisualizer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quantumvisualizer_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quantumvisualizer_autogen-Debug-3a47d4263b13886bb503.json",
+					"name" : "quantumvisualizer_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quantumvisualizer_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quantumvisualizer_autogen_timestamp_deps-Debug-1ee3edecd3e122df6965.json",
+					"name" : "quantumvisualizer_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build",
+		"source" : "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

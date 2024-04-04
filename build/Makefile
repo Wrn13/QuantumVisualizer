@@ -248,54 +248,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quantumvisualizer.dir/build.make CMakeFiles/quantumvisualizer.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/view/PotentialSpecifications.o: src/view/PotentialSpecifications.cpp.o
-.PHONY : src/view/PotentialSpecifications.o
-
-# target to build an object file
-src/view/PotentialSpecifications.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quantumvisualizer.dir/build.make CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.o
-.PHONY : src/view/PotentialSpecifications.cpp.o
-
-src/view/PotentialSpecifications.i: src/view/PotentialSpecifications.cpp.i
-.PHONY : src/view/PotentialSpecifications.i
-
-# target to preprocess a source file
-src/view/PotentialSpecifications.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quantumvisualizer.dir/build.make CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.i
-.PHONY : src/view/PotentialSpecifications.cpp.i
-
-src/view/PotentialSpecifications.s: src/view/PotentialSpecifications.cpp.s
-.PHONY : src/view/PotentialSpecifications.s
-
-# target to generate assembly for a file
-src/view/PotentialSpecifications.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quantumvisualizer.dir/build.make CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.s
-.PHONY : src/view/PotentialSpecifications.cpp.s
-
-src/view/drawArea.o: src/view/drawArea.cpp.o
-.PHONY : src/view/drawArea.o
-
-# target to build an object file
-src/view/drawArea.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quantumvisualizer.dir/build.make CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.o
-.PHONY : src/view/drawArea.cpp.o
-
-src/view/drawArea.i: src/view/drawArea.cpp.i
-.PHONY : src/view/drawArea.i
-
-# target to preprocess a source file
-src/view/drawArea.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quantumvisualizer.dir/build.make CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.i
-.PHONY : src/view/drawArea.cpp.i
-
-src/view/drawArea.s: src/view/drawArea.cpp.s
-.PHONY : src/view/drawArea.s
-
-# target to generate assembly for a file
-src/view/drawArea.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quantumvisualizer.dir/build.make CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.s
-.PHONY : src/view/drawArea.cpp.s
-
 src/view/quantumvisualizer.o: src/view/quantumvisualizer.cpp.o
 .PHONY : src/view/quantumvisualizer.o
 
@@ -341,12 +293,6 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/view/PotentialSpecifications.o"
-	@echo "... src/view/PotentialSpecifications.i"
-	@echo "... src/view/PotentialSpecifications.s"
-	@echo "... src/view/drawArea.o"
-	@echo "... src/view/drawArea.i"
-	@echo "... src/view/drawArea.s"
 	@echo "... src/view/quantumvisualizer.o"
 	@echo "... src/view/quantumvisualizer.i"
 	@echo "... src/view/quantumvisualizer.s"

@@ -1,60 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
-    <class>QuantumVisualizer</class>
-    <widget class="QMainWindow" name="QuantumVisualizer">
-        <property name="geometry">
-            <rect>
-                <x>0</x>
-                <y>0</y>
-                <width>1920</width>
-                <height>1080</height>
-            </rect>
+ <class>QuantumVisualizer</class>
+ <widget class="QMainWindow" name="QuantumVisualizer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1078</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QuantumVisualizer</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QGraphicsView" name="graphicsView"/>
+    </item>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
         </property>
-        <property name="windowTitle">
-            <string>QuantumVisualizer</string>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
         </property>
-        <widget class="QWidget" name="centralWidget">
-            <layout class="QHBoxLayout" name="horizontalLayout">
-                <item>
-                    <widget class="QWidget" name="DrawArea">
-                        <property name="geometry">
-                            <rect>
-                                <x>0</x>
-                                <width>1000</width>
-                                <height>1000</height>
-                            </rect>
-                        </property>
-                    </widget>
-                </item>
-                <item>
-                    <layout class="QVBoxLayout" name="PotentialSpecifications">
-                        <item>
-                            <widget class="QLabel" name = "PotentialLabel"/>
-                            <widget class="QTextEdit" name="PotentialDefinition">
-                                <property name="geometry">
-                                    <rect>
-                                        <x>0</x>
-                                        <width> 100 </width>
-                                        <height> 100 </height>
-                                    </rect>
-                                </property>
-                            </widget>
-                        </item>
-                    </layout>
-                </item>
-            </layout>
-        </widget>
-        <widget class="QMenuBar" name="menuBar"/>
-        <widget class="QToolBar" name="mainToolBar">
-            <attribute name="toolBarArea">
-                <enum>TopToolBarArea</enum>
-            </attribute>
-            <attribute name="toolBarBreak">
-                <bool>false</bool>
-            </attribute>
-        </widget>
-        <widget class="QStatusBar" name="statusBar"/>
-    </widget>
-    <resources/>
-    <connections/>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>900</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <resources/>
+ <connections/>
 </ui>

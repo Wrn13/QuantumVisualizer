@@ -16,17 +16,5 @@
   "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fPIC -o CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o -c /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.cpp",
   "file": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.cpp",
   "output": "CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o"
-},
-{
-  "directory": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build",
-  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fPIC -o CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.o -c /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/drawArea.cpp",
-  "file": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/drawArea.cpp",
-  "output": "CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.o"
-},
-{
-  "directory": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build",
-  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fPIC -o CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.o -c /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/PotentialSpecifications.cpp",
-  "file": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/PotentialSpecifications.cpp",
-  "output": "CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.o"
 }
 ]

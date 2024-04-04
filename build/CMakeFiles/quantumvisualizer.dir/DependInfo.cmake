@@ -11,8 +11,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "quantumvisualizer_autogen/timestamp" "custom" "quantumvisualizer_autogen/deps"
   "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/mocs_compilation.cpp" "CMakeFiles/quantumvisualizer.dir/quantumvisualizer_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/quantumvisualizer.dir/quantumvisualizer_autogen/mocs_compilation.cpp.o.d"
   "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/main.cpp" "CMakeFiles/quantumvisualizer.dir/src/main.cpp.o" "gcc" "CMakeFiles/quantumvisualizer.dir/src/main.cpp.o.d"
-  "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/PotentialSpecifications.cpp" "CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.o" "gcc" "CMakeFiles/quantumvisualizer.dir/src/view/PotentialSpecifications.cpp.o.d"
-  "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/drawArea.cpp" "CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.o" "gcc" "CMakeFiles/quantumvisualizer.dir/src/view/drawArea.cpp.o.d"
   "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.cpp" "CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o" "gcc" "CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o.d"
   )
 

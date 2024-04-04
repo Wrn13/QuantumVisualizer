@@ -2,12 +2,9 @@
 #ifndef POTENTIALSPECIFICATIONS_H
 #define POTENTIALSPECIFICATIONS_H
 
-#include <QMainWindow>
+#include <QVBoxLayout>
 #include <QScopedPointer>
-
-namespace Ui {
-    class PotentialSpecifications;
-}
+#include "quantumvisualizer.h"
 
 class PotentialSpecifications : public QVBoxLayout
 {
@@ -16,9 +13,8 @@ class PotentialSpecifications : public QVBoxLayout
 public:
     explicit PotentialSpecifications(QWidget *parent = nullptr);
     ~PotentialSpecifications() override;
-
 private:
     QScopedPointer<Ui::QuantumVisualizer> m_ui;
 };
 
-#endif // QUANTUMVISUALIZER_H
+#endif 

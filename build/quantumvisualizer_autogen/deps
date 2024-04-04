@@ -5,10 +5,6 @@ quantumvisualizer_autogen/timestamp: \
 	/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles/3.28.3/CMakeSystem.cmake \
 	/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/moc_predefs.h \
 	/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/main.cpp \
-	/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/PotentialSpecifications.cpp \
-	/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/PotentialSpecifications.h \
-	/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/drawArea.cpp \
-	/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/drawArea.h \
 	/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.cpp \
 	/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.h \
 	/usr/include/asm-generic/errno-base.h \
@@ -320,7 +316,6 @@ quantumvisualizer_autogen/timestamp: \
 	/usr/include/qt/QtGui/qtransform.h \
 	/usr/include/qt/QtGui/qwindowdefs.h \
 	/usr/include/qt/QtWidgets/QMainWindow \
-	/usr/include/qt/QtWidgets/QWidget \
 	/usr/include/qt/QtWidgets/qmainwindow.h \
 	/usr/include/qt/QtWidgets/qsizepolicy.h \
 	/usr/include/qt/QtWidgets/qtabwidget.h \
