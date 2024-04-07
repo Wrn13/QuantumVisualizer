@@ -95,6 +95,18 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Hamiltonian.h",
+			"MU",
+			"VNQA4LF4BW/moc_Hamiltonian.cpp",
+			null
+		],
+		[
+			"/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Potential.h",
+			"MU",
+			"VNQA4LF4BW/moc_Potential.cpp",
+			null
+		],
+		[
 			"/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.h",
 			"MU",
 			"3JYSCEOBDA/moc_quantumvisualizer.cpp",
@@ -155,6 +167,21 @@
 	[
 		[
 			"/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Hamiltonian.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Potential.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/SchrodingerEquation.cpp",
 			"MU",
 			null
 		],

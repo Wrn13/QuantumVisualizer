@@ -14,13 +14,14 @@ class Potential{
          */
         Potential(){
             potential = gsl_matrix_alloc(defaultSize, defaultSize);
-
+            dimension = defaultSize;
         }
         /**
-         *  Constructor which takes a dimension and creates the 2D potential matrix.
+         *  Constructor which takes a single dimension and creates the 2D potential matrix size dim x dim.
          */
-        Potential(size_t dimension){
-            potential = gsl_matrix_alloc(dimension, dimension);
+        Potential(size_t dim){
+            potential = gsl_matrix_alloc(dim, dim);
+            dimension = dim;
         }
         /**
          *  The destructor to free the gsl matrix
@@ -46,6 +47,7 @@ class Potential{
     private:
 
         gsl_matrix * potential;
+        size_t dimension;
 
 
 };

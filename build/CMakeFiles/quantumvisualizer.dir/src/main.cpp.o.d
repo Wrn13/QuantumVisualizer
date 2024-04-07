@@ -244,7 +244,9 @@ CMakeFiles/quantumvisualizer.dir/src/main.cpp.o: \
  /usr/include/qt/QtGui/qkeysequence.h \
  /usr/include/qt/QtWidgets/qtabwidget.h /usr/include/qt/QtGui/qicon.h \
  /usr/include/qt/QtCore/QScopedPointer \
- /usr/include/qt/QtCore/qscopedpointer.h \
+ /usr/include/qt/QtCore/qscopedpointer.h /usr/include/qt/QtCore/qglobal.h \
+ /usr/include/qt/QtCore/qobjectdefs.h \
+ /usr/include/qt/QtWidgets/qmainwindow.h \
  /usr/include/qt/QtWidgets/QApplication \
  /usr/include/qt/QtWidgets/qapplication.h \
  /usr/include/qt/QtCore/qcoreapplication.h \

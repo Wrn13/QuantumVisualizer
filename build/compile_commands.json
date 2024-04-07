@@ -1,20 +1,38 @@
 [
 {
   "directory": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build",
-  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fPIC -o CMakeFiles/quantumvisualizer.dir/quantumvisualizer_autogen/mocs_compilation.cpp.o -c /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/mocs_compilation.cpp",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fdiagnostics-color=always -fPIC -o CMakeFiles/quantumvisualizer.dir/quantumvisualizer_autogen/mocs_compilation.cpp.o -c /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/mocs_compilation.cpp",
   "file": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/mocs_compilation.cpp",
   "output": "CMakeFiles/quantumvisualizer.dir/quantumvisualizer_autogen/mocs_compilation.cpp.o"
 },
 {
   "directory": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build",
-  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fPIC -o CMakeFiles/quantumvisualizer.dir/src/main.cpp.o -c /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/main.cpp",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fdiagnostics-color=always -fPIC -o CMakeFiles/quantumvisualizer.dir/src/main.cpp.o -c /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/main.cpp",
   "file": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/main.cpp",
   "output": "CMakeFiles/quantumvisualizer.dir/src/main.cpp.o"
 },
 {
   "directory": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build",
-  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fPIC -o CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o -c /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.cpp",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fdiagnostics-color=always -fPIC -o CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o -c /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.cpp",
   "file": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.cpp",
   "output": "CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o"
+},
+{
+  "directory": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fdiagnostics-color=always -fPIC -o CMakeFiles/quantumvisualizer.dir/src/model/Hamiltonian.cpp.o -c /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Hamiltonian.cpp",
+  "file": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Hamiltonian.cpp",
+  "output": "CMakeFiles/quantumvisualizer.dir/src/model/Hamiltonian.cpp.o"
+},
+{
+  "directory": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fdiagnostics-color=always -fPIC -o CMakeFiles/quantumvisualizer.dir/src/model/Potential.cpp.o -c /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Potential.cpp",
+  "file": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Potential.cpp",
+  "output": "CMakeFiles/quantumvisualizer.dir/src/model/Potential.cpp.o"
+},
+{
+  "directory": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fdiagnostics-color=always -fPIC -o CMakeFiles/quantumvisualizer.dir/src/model/SchrodingerEquation.cpp.o -c /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/SchrodingerEquation.cpp",
+  "file": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/SchrodingerEquation.cpp",
+  "output": "CMakeFiles/quantumvisualizer.dir/src/model/SchrodingerEquation.cpp.o"
 }
 ]

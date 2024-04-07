@@ -16,3 +16,4 @@ src/view/drawArea.cpp
 src/view/drawArea.h
 src/view/quantumvisualizer.cpp
 src/view/quantumvisualizer.h
+src/view/quantumvisualizer.ui

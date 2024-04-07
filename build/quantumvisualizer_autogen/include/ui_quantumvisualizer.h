@@ -111,7 +111,10 @@ public:
 };
 
 namespace Ui {
-    class QuantumVisualizer: public Ui_QuantumVisualizer {};
+class QuantumVisualizer: public Ui_QuantumVisualizer {private slots:
+    void on_textEdit_textChanged();
+    void on_graphicsView_rubberBandChanged(const QRect &viewportRect, const QPointF &fromScenePoint, const QPointF &toScenePoint);
+};
 } // namespace Ui
 
 QT_END_NAMESPACE

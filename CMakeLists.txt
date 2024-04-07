@@ -11,9 +11,16 @@ set(CMAKE_AUTOUIC ON)
 # Find the QtWidgets library
 find_package(Qt5Widgets CONFIG REQUIRED)
 
+find_library(lambda_lanczos
+            NAMES lambda_lanczos
+            HINTS src/lambda_lanczos/include)
+
 set(quantumvisualizer_SRC
   src/main.cpp
   src/view/quantumvisualizer.cpp
+  src/model/Hamiltonian.cpp
+  src/model/Potential.cpp
+  src/model/SchrodingerEquation.cpp
 )
 
 # Tell CMake to create the helloworld executable

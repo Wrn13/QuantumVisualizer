@@ -24,6 +24,9 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 // MinSizeRel ...
 CMAKE_BUILD_TYPE:STRING=Debug
 
+//Enable colored diagnostics throughout.
+CMAKE_COLOR_DIAGNOSTICS:BOOL=1
+
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
@@ -232,6 +235,9 @@ QuantumVisualizer_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 QuantumVisualizer_SOURCE_DIR:STATIC=/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer
+
+//Path to a library.
+lambda_lanczos:FILEPATH=lambda_lanczos-NOTFOUND
 
 
 ########################

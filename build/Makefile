@@ -248,6 +248,78 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quantumvisualizer.dir/build.make CMakeFiles/quantumvisualizer.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/model/Hamiltonian.o: src/model/Hamiltonian.cpp.o
+.PHONY : src/model/Hamiltonian.o
+
+# target to build an object file
+src/model/Hamiltonian.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quantumvisualizer.dir/build.make CMakeFiles/quantumvisualizer.dir/src/model/Hamiltonian.cpp.o
+.PHONY : src/model/Hamiltonian.cpp.o
+
+src/model/Hamiltonian.i: src/model/Hamiltonian.cpp.i
+.PHONY : src/model/Hamiltonian.i
+
+# target to preprocess a source file
+src/model/Hamiltonian.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quantumvisualizer.dir/build.make CMakeFiles/quantumvisualizer.dir/src/model/Hamiltonian.cpp.i
+.PHONY : src/model/Hamiltonian.cpp.i
+
+src/model/Hamiltonian.s: src/model/Hamiltonian.cpp.s
+.PHONY : src/model/Hamiltonian.s
+
+# target to generate assembly for a file
+src/model/Hamiltonian.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quantumvisualizer.dir/build.make CMakeFiles/quantumvisualizer.dir/src/model/Hamiltonian.cpp.s
+.PHONY : src/model/Hamiltonian.cpp.s
+
+src/model/Potential.o: src/model/Potential.cpp.o
+.PHONY : src/model/Potential.o
+
+# target to build an object file
+src/model/Potential.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quantumvisualizer.dir/build.make CMakeFiles/quantumvisualizer.dir/src/model/Potential.cpp.o
+.PHONY : src/model/Potential.cpp.o
+
+src/model/Potential.i: src/model/Potential.cpp.i
+.PHONY : src/model/Potential.i
+
+# target to preprocess a source file
+src/model/Potential.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quantumvisualizer.dir/build.make CMakeFiles/quantumvisualizer.dir/src/model/Potential.cpp.i
+.PHONY : src/model/Potential.cpp.i
+
+src/model/Potential.s: src/model/Potential.cpp.s
+.PHONY : src/model/Potential.s
+
+# target to generate assembly for a file
+src/model/Potential.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quantumvisualizer.dir/build.make CMakeFiles/quantumvisualizer.dir/src/model/Potential.cpp.s
+.PHONY : src/model/Potential.cpp.s
+
+src/model/SchrodingerEquation.o: src/model/SchrodingerEquation.cpp.o
+.PHONY : src/model/SchrodingerEquation.o
+
+# target to build an object file
+src/model/SchrodingerEquation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quantumvisualizer.dir/build.make CMakeFiles/quantumvisualizer.dir/src/model/SchrodingerEquation.cpp.o
+.PHONY : src/model/SchrodingerEquation.cpp.o
+
+src/model/SchrodingerEquation.i: src/model/SchrodingerEquation.cpp.i
+.PHONY : src/model/SchrodingerEquation.i
+
+# target to preprocess a source file
+src/model/SchrodingerEquation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quantumvisualizer.dir/build.make CMakeFiles/quantumvisualizer.dir/src/model/SchrodingerEquation.cpp.i
+.PHONY : src/model/SchrodingerEquation.cpp.i
+
+src/model/SchrodingerEquation.s: src/model/SchrodingerEquation.cpp.s
+.PHONY : src/model/SchrodingerEquation.s
+
+# target to generate assembly for a file
+src/model/SchrodingerEquation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quantumvisualizer.dir/build.make CMakeFiles/quantumvisualizer.dir/src/model/SchrodingerEquation.cpp.s
+.PHONY : src/model/SchrodingerEquation.cpp.s
+
 src/view/quantumvisualizer.o: src/view/quantumvisualizer.cpp.o
 .PHONY : src/view/quantumvisualizer.o
 
@@ -293,6 +365,15 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/model/Hamiltonian.o"
+	@echo "... src/model/Hamiltonian.i"
+	@echo "... src/model/Hamiltonian.s"
+	@echo "... src/model/Potential.o"
+	@echo "... src/model/Potential.i"
+	@echo "... src/model/Potential.s"
+	@echo "... src/model/SchrodingerEquation.o"
+	@echo "... src/model/SchrodingerEquation.i"
+	@echo "... src/model/SchrodingerEquation.s"
 	@echo "... src/view/quantumvisualizer.o"
 	@echo "... src/view/quantumvisualizer.i"
 	@echo "... src/view/quantumvisualizer.s"
