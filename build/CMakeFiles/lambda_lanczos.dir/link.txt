@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblambda_lanczos.a CMakeFiles/lambda_lanczos.dir/lambda_lanczos_autogen/mocs_compilation.cpp.o
+/usr/bin/ranlib liblambda_lanczos.a

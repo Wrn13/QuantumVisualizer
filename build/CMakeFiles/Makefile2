@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVi
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/lambda_lanczos.dir/all
 all: CMakeFiles/quantumvisualizer.dir/all
 .PHONY : all
 
@@ -71,10 +72,37 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/lambda_lanczos.dir/clean
 clean: CMakeFiles/quantumvisualizer.dir/clean
 clean: CMakeFiles/quantumvisualizer_autogen_timestamp_deps.dir/clean
 clean: CMakeFiles/quantumvisualizer_autogen.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lambda_lanczos.dir
+
+# All Build rule for target.
+CMakeFiles/lambda_lanczos.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lambda_lanczos.dir/build.make CMakeFiles/lambda_lanczos.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lambda_lanczos.dir/build.make CMakeFiles/lambda_lanczos.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles --progress-num= "Built target lambda_lanczos"
+.PHONY : CMakeFiles/lambda_lanczos.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lambda_lanczos.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lambda_lanczos.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles 0
+.PHONY : CMakeFiles/lambda_lanczos.dir/rule
+
+# Convenience name for target.
+lambda_lanczos: CMakeFiles/lambda_lanczos.dir/rule
+.PHONY : lambda_lanczos
+
+# clean rule for target.
+CMakeFiles/lambda_lanczos.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lambda_lanczos.dir/build.make CMakeFiles/lambda_lanczos.dir/clean
+.PHONY : CMakeFiles/lambda_lanczos.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/quantumvisualizer.dir

@@ -11,9 +11,8 @@ set(CMAKE_AUTOUIC ON)
 # Find the QtWidgets library
 find_package(Qt5Widgets CONFIG REQUIRED)
 
-find_library(lambda_lanczos
-            NAMES lambda_lanczos
-            HINTS src/lambda_lanczos/include)
+add_library(lambda_lanczos
+            INTERFACE modules/lambda-lanczos/include)
 
 set(quantumvisualizer_SRC
   src/main.cpp

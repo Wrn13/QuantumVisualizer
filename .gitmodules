@@ -1,3 +1,6 @@
 [submodule "src/lambda-lanczos"]
 	path = src/lambda-lanczos
 	url = https://github.com/mrcdr/lambda-lanczos
+[submodule "modules/lambda-lanczos"]
+	path = modules/lambda-lanczos
+	url = https://github.com/mrcdr/lambda-lanczos

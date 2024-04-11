@@ -1,3 +1,4 @@
+/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles/lambda_lanczos.dir
 /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles/quantumvisualizer.dir
 /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles/edit_cache.dir
 /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/CMakeFiles/rebuild_cache.dir

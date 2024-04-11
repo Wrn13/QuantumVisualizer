@@ -1,6 +1,10 @@
+#ifndef HAMILTONIAN_H
+#define HAMILTONIAN_H
+
 #include "Potential.h"
 #include <gsl/gsl_matrix.h>
 #include <iostream>
+#include <vector>
 /**
  * Class representing the Hamiltonian of the system.
  */ 
@@ -12,6 +16,11 @@ class Hamiltonian{
          * @Param delta the distance between grid points; smaller => more precise
          */
         Hamiltonian(Potential p, int n, double delta);
+
+        ~Hamiltonian(){
+            gsl_matrix_free(hamiltonian);
+            gsl_matrix_free(eigenvector);
+        }
         /**
          * Diagonalize the matrix.
          * Requires is_diagonalized == true. 
@@ -29,12 +38,28 @@ class Hamiltonian{
             }
             return gsl_matrix_get(hamiltonian, i, j);
         }
+
+        /**
+         *  The dimensionality of the hamiltonian.
+         */
+        const int SPACE_DIMENSION = 2;
+
+    
+        /**
+         * Function to get the ith eigenvector and convert it to matrix form.
+         * This is because eigenvectors are stored as an n^2 length list and
+         * we might need to convert it to a nicer format.
+         */
+        void get_matrix_eigenvector(size_t i);
+
     private:
         
         gsl_matrix * hamiltonian;
         bool is_diagonal = false;
         int hamiltonianDimension;
-        gsl_vector * eigenvalues;
-        gsl_matrix * eigenvectors;
-
+        std::vector<double> eigenvalues;
+        std::vector<std::vector<double>> eigenvectors;
+        gsl_matrix * eigenvector;
 };
+
+#endif

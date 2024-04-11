@@ -162,6 +162,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named lambda_lanczos
+
+# Build rule for target.
+lambda_lanczos: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lambda_lanczos
+.PHONY : lambda_lanczos
+
+# fast build rule for target.
+lambda_lanczos/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lambda_lanczos.dir/build.make CMakeFiles/lambda_lanczos.dir/build
+.PHONY : lambda_lanczos/fast
+
+#=============================================================================
 # Target rules for targets named quantumvisualizer
 
 # Build rule for target.
@@ -358,6 +371,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... quantumvisualizer_autogen"
 	@echo "... quantumvisualizer_autogen_timestamp_deps"
+	@echo "... lambda_lanczos"
 	@echo "... quantumvisualizer"
 	@echo "... quantumvisualizer_autogen/mocs_compilation.o"
 	@echo "... quantumvisualizer_autogen/mocs_compilation.i"

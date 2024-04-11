@@ -44,6 +44,11 @@ class Potential{
          * Function to return the ith and jth elements of the potential matrix
          */
         double get_Vij(int i, int j){ return gsl_matrix_get(potential, i, j);}
+
+        /**
+         *  Function to return the dimension of the potential.
+         */
+        double get_dimension(){return dimension;}
     private:
 
         gsl_matrix * potential;

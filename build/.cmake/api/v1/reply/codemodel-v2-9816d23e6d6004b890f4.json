@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-ec352dd1d6d4afb3d62f.json",
+					"jsonFile" : "directory-.-Debug-566cc729f0605bf88729.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.0"
@@ -18,7 +18,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -35,7 +36,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -43,8 +45,15 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "lambda_lanczos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lambda_lanczos-Debug-67c11a42ce81150ffc63.json",
+					"name" : "lambda_lanczos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "quantumvisualizer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-quantumvisualizer-Debug-f50dce3484336de81227.json",
+					"jsonFile" : "target-quantumvisualizer-Debug-963e205e99342fe11a1f.json",
 					"name" : "quantumvisualizer",
 					"projectIndex" : 0
 				},
