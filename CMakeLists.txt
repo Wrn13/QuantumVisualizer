@@ -11,6 +11,8 @@ set(CMAKE_AUTOUIC ON)
 # Find the QtWidgets library
 find_package(Qt5Widgets CONFIG REQUIRED)
 
+find_package(GSL REQUIRED)
+
 add_library(lambda_lanczos
             INTERFACE modules/lambda-lanczos/include)
 
@@ -19,7 +21,6 @@ set(quantumvisualizer_SRC
   src/view/quantumvisualizer.cpp
   src/model/Hamiltonian.cpp
   src/model/Potential.cpp
-  src/model/SchrodingerEquation.cpp
 )
 
 # Tell CMake to create the helloworld executable
@@ -27,6 +28,8 @@ add_executable(quantumvisualizer ${quantumvisualizer_SRC})
 
 # Use the Widgets module from Qt 5.
 target_link_libraries(quantumvisualizer Qt5::Widgets)
+target_link_libraries(quantumvisualizer GSL::gsl GSL::gslcblas)
+target_link_libraries(quantumvisualizer GSL::gsl GSL::gslcblas)
 
 # Install the executable
 install(TARGETS quantumvisualizer DESTINATION bin)

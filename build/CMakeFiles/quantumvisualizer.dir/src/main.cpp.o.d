@@ -244,7 +244,15 @@ CMakeFiles/quantumvisualizer.dir/src/main.cpp.o: \
  /usr/include/qt/QtGui/qkeysequence.h \
  /usr/include/qt/QtWidgets/qtabwidget.h /usr/include/qt/QtGui/qicon.h \
  /usr/include/qt/QtCore/QScopedPointer \
- /usr/include/qt/QtCore/qscopedpointer.h /usr/include/qt/QtCore/qglobal.h \
+ /usr/include/qt/QtCore/qscopedpointer.h \
+ /usr/include/qt/QtWidgets/QWidget /usr/include/qt/QtWidgets/qwidget.h \
+ /usr/include/qt/QtWidgets/QToolBar /usr/include/qt/QtWidgets/qtoolbar.h \
+ /usr/include/qt/QtWidgets/qaction.h /usr/include/qt/QtCore/qvariant.h \
+ /usr/include/qt/QtCore/qmap.h /usr/include/c++/13.2.1/variant \
+ /usr/include/qt/QtWidgets/qactiongroup.h \
+ /usr/include/qt/QtWidgets/QMenuBar /usr/include/qt/QtWidgets/qmenubar.h \
+ /usr/include/qt/QtWidgets/qmenu.h /usr/include/qt/QtWidgets/QStatusBar \
+ /usr/include/qt/QtWidgets/qstatusbar.h /usr/include/qt/QtCore/qglobal.h \
  /usr/include/qt/QtCore/qobjectdefs.h \
  /usr/include/qt/QtWidgets/qmainwindow.h \
  /usr/include/qt/QtWidgets/QApplication \
@@ -252,6 +260,4 @@ CMakeFiles/quantumvisualizer.dir/src/main.cpp.o: \
  /usr/include/qt/QtCore/qcoreapplication.h \
  /usr/include/qt/QtCore/qcoreevent.h /usr/include/qt/QtCore/qeventloop.h \
  /usr/include/qt/QtGui/qguiapplication.h \
- /usr/include/qt/QtGui/qinputmethod.h /usr/include/qt/QtCore/qlocale.h \
- /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \
- /usr/include/c++/13.2.1/variant
+ /usr/include/qt/QtGui/qinputmethod.h /usr/include/qt/QtCore/qlocale.h

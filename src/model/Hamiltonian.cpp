@@ -1,6 +1,7 @@
 #include "Hamiltonian.h"
 #include <vector>
 #include <gsl/gsl_vector.h>
+#include <gsl/gsl_matrix.h>
 #include "modules/lambda-lanczos/include/lambda_lanczos/lambda_lanczos.hpp"
 using namespace std;
 

@@ -10,8 +10,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/quantumvisualizer.dir/src/model/Hamiltonian.cpp.o.d"
   "CMakeFiles/quantumvisualizer.dir/src/model/Potential.cpp.o"
   "CMakeFiles/quantumvisualizer.dir/src/model/Potential.cpp.o.d"
-  "CMakeFiles/quantumvisualizer.dir/src/model/SchrodingerEquation.cpp.o"
-  "CMakeFiles/quantumvisualizer.dir/src/model/SchrodingerEquation.cpp.o.d"
   "CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o"
   "CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o.d"
   "quantumvisualizer"

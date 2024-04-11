@@ -9,4 +9,5 @@ QuantumVisualizer::QuantumVisualizer(QWidget *parent):
 
 QuantumVisualizer::~QuantumVisualizer() = default;
 
+
 #include "moc_quantumvisualizer.cpp"

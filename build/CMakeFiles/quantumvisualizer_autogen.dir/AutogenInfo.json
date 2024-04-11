@@ -87,7 +87,13 @@
 		"/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
 		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
-		"/usr/share/cmake/Modules/CMakeParseArguments.cmake"
+		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/usr/share/cmake/Modules/FindGSL.cmake",
+		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake/Modules/FindPackageMessage.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer",
 	"DEP_FILE" : "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/deps",
@@ -133,13 +139,13 @@
 		"/usr/include/qt/QtGui",
 		"/usr/include/qt/QtCore",
 		"/usr/lib/qt/mkspecs/linux-g++",
+		"/usr/include",
 		"/usr/include/c++/13.2.1",
 		"/usr/include/c++/13.2.1/x86_64-pc-linux-gnu",
 		"/usr/include/c++/13.2.1/backward",
 		"/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include",
 		"/usr/local/include",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed",
-		"/usr/include"
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
 	"MOC_OPTIONS" : [],
@@ -177,11 +183,6 @@
 		],
 		[
 			"/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Potential.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/SchrodingerEquation.cpp",
 			"MU",
 			null
 		],

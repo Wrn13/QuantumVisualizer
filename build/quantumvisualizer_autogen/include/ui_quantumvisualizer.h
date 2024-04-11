@@ -16,6 +16,7 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTextEdit>
@@ -30,13 +31,14 @@ class Ui_QuantumVisualizer
 public:
     QWidget *centralWidget;
     QHBoxLayout *horizontalLayout;
-    QGraphicsView *graphicsView;
+    QGraphicsView *DrawArea;
     QSpacerItem *verticalSpacer;
-    QVBoxLayout *verticalLayout;
+    QVBoxLayout *PotentialGroup;
+    QHBoxLayout *PotentialSpecifications;
+    QLabel *PotentialName;
+    QTextEdit *PotentialValue;
     QSpacerItem *horizontalSpacer;
-    QHBoxLayout *horizontalLayout_2;
-    QLabel *label;
-    QTextEdit *textEdit;
+    QPushButton *BtnSubmit;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -50,40 +52,45 @@ public:
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         horizontalLayout = new QHBoxLayout(centralWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
-        graphicsView = new QGraphicsView(centralWidget);
-        graphicsView->setObjectName(QString::fromUtf8("graphicsView"));
+        DrawArea = new QGraphicsView(centralWidget);
+        DrawArea->setObjectName(QString::fromUtf8("DrawArea"));
 
-        horizontalLayout->addWidget(graphicsView);
+        horizontalLayout->addWidget(DrawArea);
 
         verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         horizontalLayout->addItem(verticalSpacer);
 
-        verticalLayout = new QVBoxLayout();
-        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        verticalLayout->setContentsMargins(0, -1, -1, -1);
+        PotentialGroup = new QVBoxLayout();
+        PotentialGroup->setObjectName(QString::fromUtf8("PotentialGroup"));
+        PotentialGroup->setContentsMargins(0, -1, -1, -1);
+        PotentialSpecifications = new QHBoxLayout();
+        PotentialSpecifications->setObjectName(QString::fromUtf8("PotentialSpecifications"));
+        PotentialSpecifications->setContentsMargins(0, -1, -1, 900);
+        PotentialName = new QLabel(centralWidget);
+        PotentialName->setObjectName(QString::fromUtf8("PotentialName"));
+
+        PotentialSpecifications->addWidget(PotentialName);
+
+        PotentialValue = new QTextEdit(centralWidget);
+        PotentialValue->setObjectName(QString::fromUtf8("PotentialValue"));
+
+        PotentialSpecifications->addWidget(PotentialValue);
+
+
+        PotentialGroup->addLayout(PotentialSpecifications);
+
         horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
-        verticalLayout->addItem(horizontalSpacer);
+        PotentialGroup->addItem(horizontalSpacer);
 
-        horizontalLayout_2 = new QHBoxLayout();
-        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
-        horizontalLayout_2->setContentsMargins(0, -1, -1, 900);
-        label = new QLabel(centralWidget);
-        label->setObjectName(QString::fromUtf8("label"));
+        BtnSubmit = new QPushButton(centralWidget);
+        BtnSubmit->setObjectName(QString::fromUtf8("BtnSubmit"));
 
-        horizontalLayout_2->addWidget(label);
-
-        textEdit = new QTextEdit(centralWidget);
-        textEdit->setObjectName(QString::fromUtf8("textEdit"));
-
-        horizontalLayout_2->addWidget(textEdit);
+        PotentialGroup->addWidget(BtnSubmit);
 
 
-        verticalLayout->addLayout(horizontalLayout_2);
-
-
-        horizontalLayout->addLayout(verticalLayout);
+        horizontalLayout->addLayout(PotentialGroup);
 
         QuantumVisualizer->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(QuantumVisualizer);
@@ -105,16 +112,14 @@ public:
     void retranslateUi(QMainWindow *QuantumVisualizer)
     {
         QuantumVisualizer->setWindowTitle(QCoreApplication::translate("QuantumVisualizer", "QuantumVisualizer", nullptr));
-        label->setText(QCoreApplication::translate("QuantumVisualizer", "TextLabel", nullptr));
+        PotentialName->setText(QCoreApplication::translate("QuantumVisualizer", "TextLabel", nullptr));
+        BtnSubmit->setText(QCoreApplication::translate("QuantumVisualizer", "PushButton", nullptr));
     } // retranslateUi
 
 };
 
 namespace Ui {
-class QuantumVisualizer: public Ui_QuantumVisualizer {private slots:
-    void on_textEdit_textChanged();
-    void on_graphicsView_rubberBandChanged(const QRect &viewportRect, const QPointF &fromScenePoint, const QPointF &toScenePoint);
-};
+    class QuantumVisualizer: public Ui_QuantumVisualizer {};
 } // namespace Ui
 
 QT_END_NAMESPACE

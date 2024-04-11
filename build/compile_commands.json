@@ -28,11 +28,5 @@
   "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fdiagnostics-color=always -fPIC -o CMakeFiles/quantumvisualizer.dir/src/model/Potential.cpp.o -c /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Potential.cpp",
   "file": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Potential.cpp",
   "output": "CMakeFiles/quantumvisualizer.dir/src/model/Potential.cpp.o"
-},
-{
-  "directory": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build",
-  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer -I/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fdiagnostics-color=always -fPIC -o CMakeFiles/quantumvisualizer.dir/src/model/SchrodingerEquation.cpp.o -c /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/SchrodingerEquation.cpp",
-  "file": "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/SchrodingerEquation.cpp",
-  "output": "CMakeFiles/quantumvisualizer.dir/src/model/SchrodingerEquation.cpp.o"
 }
 ]

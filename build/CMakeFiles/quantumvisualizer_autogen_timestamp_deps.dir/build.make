@@ -66,8 +66,8 @@ include CMakeFiles/quantumvisualizer_autogen_timestamp_deps.dir/compiler_depend.
 # Include the progress variables for this target.
 include CMakeFiles/quantumvisualizer_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/quantumvisualizer_autogen_timestamp_deps: /usr/lib/libQt5Widgets.so.5.15.12
 CMakeFiles/quantumvisualizer_autogen_timestamp_deps: /usr/bin/uic
+CMakeFiles/quantumvisualizer_autogen_timestamp_deps: /usr/lib/libQt5Widgets.so.5.15.12
 CMakeFiles/quantumvisualizer_autogen_timestamp_deps: /usr/bin/moc
 
 quantumvisualizer_autogen_timestamp_deps: CMakeFiles/quantumvisualizer_autogen_timestamp_deps

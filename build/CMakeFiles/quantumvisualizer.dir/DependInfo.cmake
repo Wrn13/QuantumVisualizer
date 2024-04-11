@@ -13,7 +13,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/main.cpp" "CMakeFiles/quantumvisualizer.dir/src/main.cpp.o" "gcc" "CMakeFiles/quantumvisualizer.dir/src/main.cpp.o.d"
   "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Hamiltonian.cpp" "CMakeFiles/quantumvisualizer.dir/src/model/Hamiltonian.cpp.o" "gcc" "CMakeFiles/quantumvisualizer.dir/src/model/Hamiltonian.cpp.o.d"
   "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Potential.cpp" "CMakeFiles/quantumvisualizer.dir/src/model/Potential.cpp.o" "gcc" "CMakeFiles/quantumvisualizer.dir/src/model/Potential.cpp.o.d"
-  "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/SchrodingerEquation.cpp" "CMakeFiles/quantumvisualizer.dir/src/model/SchrodingerEquation.cpp.o" "gcc" "CMakeFiles/quantumvisualizer.dir/src/model/SchrodingerEquation.cpp.o.d"
   "/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.cpp" "CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o" "gcc" "CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o.d"
   )
 

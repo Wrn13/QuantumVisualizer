@@ -1,3 +1,0 @@
-#include "Wavefunction.h"
-Wavefunction
-

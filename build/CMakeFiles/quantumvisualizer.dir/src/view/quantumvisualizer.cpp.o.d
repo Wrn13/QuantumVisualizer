@@ -244,19 +244,25 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: \
  /usr/include/qt/QtGui/qkeysequence.h \
  /usr/include/qt/QtWidgets/qtabwidget.h /usr/include/qt/QtGui/qicon.h \
  /usr/include/qt/QtCore/QScopedPointer \
- /usr/include/qt/QtCore/qscopedpointer.h /usr/include/qt/QtCore/qglobal.h \
+ /usr/include/qt/QtCore/qscopedpointer.h \
+ /usr/include/qt/QtWidgets/QWidget /usr/include/qt/QtWidgets/qwidget.h \
+ /usr/include/qt/QtWidgets/QToolBar /usr/include/qt/QtWidgets/qtoolbar.h \
+ /usr/include/qt/QtWidgets/qaction.h /usr/include/qt/QtCore/qvariant.h \
+ /usr/include/qt/QtCore/qmap.h /usr/include/c++/13.2.1/variant \
+ /usr/include/qt/QtWidgets/qactiongroup.h \
+ /usr/include/qt/QtWidgets/QMenuBar /usr/include/qt/QtWidgets/qmenubar.h \
+ /usr/include/qt/QtWidgets/qmenu.h /usr/include/qt/QtWidgets/QStatusBar \
+ /usr/include/qt/QtWidgets/qstatusbar.h /usr/include/qt/QtCore/qglobal.h \
  /usr/include/qt/QtCore/qobjectdefs.h \
  /usr/include/qt/QtWidgets/qmainwindow.h \
  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include/ui_quantumvisualizer.h \
  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
- /usr/include/qt/QtCore/qmap.h /usr/include/c++/13.2.1/variant \
  /usr/include/qt/QtWidgets/QApplication \
  /usr/include/qt/QtWidgets/qapplication.h \
  /usr/include/qt/QtCore/qcoreapplication.h \
  /usr/include/qt/QtCore/qcoreevent.h /usr/include/qt/QtCore/qeventloop.h \
  /usr/include/qt/QtGui/qguiapplication.h \
  /usr/include/qt/QtGui/qinputmethod.h /usr/include/qt/QtCore/qlocale.h \
- /usr/include/qt/QtCore/qvariant.h \
  /usr/include/qt/QtWidgets/QGraphicsView \
  /usr/include/qt/QtWidgets/qgraphicsview.h \
  /usr/include/qt/QtGui/qpainter.h /usr/include/qt/QtGui/qtextoption.h \
@@ -271,19 +277,16 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: \
  /usr/include/qt/QtWidgets/qboxlayout.h \
  /usr/include/qt/QtWidgets/qgridlayout.h /usr/include/qt/QtWidgets/QLabel \
  /usr/include/qt/QtWidgets/qlabel.h /usr/include/qt/QtWidgets/QMainWindow \
- /usr/include/qt/QtWidgets/QMenuBar /usr/include/qt/QtWidgets/qmenubar.h \
- /usr/include/qt/QtWidgets/qmenu.h /usr/include/qt/QtWidgets/qaction.h \
- /usr/include/qt/QtWidgets/qactiongroup.h \
+ /usr/include/qt/QtWidgets/QMenuBar /usr/include/qt/QtWidgets/QPushButton \
+ /usr/include/qt/QtWidgets/qpushbutton.h \
+ /usr/include/qt/QtWidgets/qabstractbutton.h \
  /usr/include/qt/QtWidgets/QSpacerItem \
  /usr/include/qt/QtWidgets/qlayoutitem.h \
- /usr/include/qt/QtWidgets/QStatusBar \
- /usr/include/qt/QtWidgets/qstatusbar.h \
- /usr/include/qt/QtWidgets/QTextEdit \
+ /usr/include/qt/QtWidgets/QStatusBar /usr/include/qt/QtWidgets/QTextEdit \
  /usr/include/qt/QtWidgets/qtextedit.h \
  /usr/include/qt/QtGui/qtextdocument.h /usr/include/qt/QtCore/qurl.h \
  /usr/include/qt/QtGui/qtextcursor.h /usr/include/qt/QtGui/qtextformat.h \
- /usr/include/qt/QtWidgets/QToolBar /usr/include/qt/QtWidgets/qtoolbar.h \
- /usr/include/qt/QtWidgets/QVBoxLayout /usr/include/qt/QtWidgets/QWidget \
- /usr/include/qt/QtWidgets/qwidget.h \
+ /usr/include/qt/QtWidgets/QToolBar /usr/include/qt/QtWidgets/QVBoxLayout \
+ /usr/include/qt/QtWidgets/QWidget \
  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include/moc_quantumvisualizer.cpp \
  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include/../../../src/view/quantumvisualizer.h
