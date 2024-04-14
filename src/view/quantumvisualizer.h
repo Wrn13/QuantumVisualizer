@@ -30,12 +30,17 @@ public:
     explicit QuantumVisualizer(QWidget *parent = nullptr);
     ~QuantumVisualizer();
 
+private slots:
+    void save();
+    void update();
+    void addNewPotential();
+
 private:
     QScopedPointer<Ui::QuantumVisualizer> m_ui;
-    QWidget centralWidget;
-    QToolBar mainToolBar;
-    QMenuBar menuBar;
-    QStatusBar statusBar;
+    QWidget *centralWidget;
+    QToolBar *mainToolBar;
+    QMenuBar *menuBar;
+    QStatusBar *statusBar;
 };
 
 #endif // QUANTUMVISUALIZER_H
