@@ -38,6 +38,7 @@ private slots:
 private:
     QScopedPointer<Ui::QuantumVisualizer> m_ui;
     QWidget *centralWidget;
+    DrawArea drawArea;
     QToolBar *mainToolBar;
     QMenuBar *menuBar;
     QStatusBar *statusBar;
