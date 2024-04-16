@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>QuantumVisualizer</class>
  <widget class="QMainWindow" name="QuantumVisualizer">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -9,6 +12,12 @@
     <width>1920</width>
     <height>1109</height>
    </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>1109</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>QuantumVisualizer</string>
