@@ -1,6 +1,7 @@
 #ifndef H_POTENTIAL
 #define H_POTENTIAL
 #include <gsl/gsl_matrix.h>
+#include "../controller/Box.h"
 /**
  * Class defining the potential matrix.
  *
@@ -41,6 +42,11 @@ class Potential{
         void addPeak(int x0, int x1, int y0, int y1, double potential);
 
         /**
+         *  Same as above but with a box object as a parameter instead.
+         */
+        void addPeak(Box box, double potential);
+
+        /**
          * Function to return the ith and jth elements of the potential matrix
          */
         double get_Vij(int i, int j){ return gsl_matrix_get(potential, i, j);}
@@ -50,10 +56,8 @@ class Potential{
          */
         double get_dimension(){return dimension;}
     private:
-
         gsl_matrix * potential;
         size_t dimension;
-
 
 };
 

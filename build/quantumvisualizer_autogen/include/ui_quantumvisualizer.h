@@ -31,7 +31,7 @@ class Ui_QuantumVisualizer
 public:
     QWidget *centralWidget;
     QHBoxLayout *horizontalLayout;
-    QGraphicsView *DrawArea;
+    QGraphicsView *DrawView;
     QSpacerItem *verticalSpacer;
     QVBoxLayout *PotentialGroup;
     QHBoxLayout *PotentialSpecifications;
@@ -47,15 +47,15 @@ public:
     {
         if (QuantumVisualizer->objectName().isEmpty())
             QuantumVisualizer->setObjectName(QString::fromUtf8("QuantumVisualizer"));
-        QuantumVisualizer->resize(1920, 1078);
+        QuantumVisualizer->resize(1920, 1109);
         centralWidget = new QWidget(QuantumVisualizer);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         horizontalLayout = new QHBoxLayout(centralWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
-        DrawArea = new QGraphicsView(centralWidget);
-        DrawArea->setObjectName(QString::fromUtf8("DrawArea"));
+        DrawView = new QGraphicsView(centralWidget);
+        DrawView->setObjectName(QString::fromUtf8("DrawView"));
 
-        horizontalLayout->addWidget(DrawArea);
+        horizontalLayout->addWidget(DrawView);
 
         verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
@@ -105,6 +105,7 @@ public:
         QuantumVisualizer->setStatusBar(statusBar);
 
         retranslateUi(QuantumVisualizer);
+        QObject::connect(BtnSubmit, SIGNAL(clicked()), QuantumVisualizer, SLOT(update()));
 
         QMetaObject::connectSlotsByName(QuantumVisualizer);
     } // setupUi

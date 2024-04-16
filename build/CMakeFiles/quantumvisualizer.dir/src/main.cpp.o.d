@@ -250,10 +250,47 @@ CMakeFiles/quantumvisualizer.dir/src/main.cpp.o: \
  /usr/include/qt/QtWidgets/qaction.h /usr/include/qt/QtCore/qvariant.h \
  /usr/include/qt/QtCore/qmap.h /usr/include/c++/13.2.1/variant \
  /usr/include/qt/QtWidgets/qactiongroup.h \
+ /usr/include/qt/QtWidgets/QPushButton \
+ /usr/include/qt/QtWidgets/qpushbutton.h \
+ /usr/include/qt/QtWidgets/qabstractbutton.h \
+ /usr/include/qt/QtWidgets/QVBoxLayout \
+ /usr/include/qt/QtWidgets/qboxlayout.h \
+ /usr/include/qt/QtWidgets/qlayout.h \
+ /usr/include/qt/QtWidgets/qlayoutitem.h \
+ /usr/include/qt/QtWidgets/qboxlayout.h \
+ /usr/include/qt/QtWidgets/qgridlayout.h \
  /usr/include/qt/QtWidgets/QMenuBar /usr/include/qt/QtWidgets/qmenubar.h \
  /usr/include/qt/QtWidgets/qmenu.h /usr/include/qt/QtWidgets/QStatusBar \
- /usr/include/qt/QtWidgets/qstatusbar.h /usr/include/qt/QtCore/qglobal.h \
- /usr/include/qt/QtCore/qobjectdefs.h \
+ /usr/include/qt/QtWidgets/qstatusbar.h \
+ /usr/include/qt/QtWidgets/QGraphicsScene \
+ /usr/include/qt/QtWidgets/qgraphicsscene.h /usr/include/qt/QtGui/qpen.h \
+ /usr/include/qt/QtWidgets/QGraphicsView \
+ /usr/include/qt/QtWidgets/qgraphicsview.h \
+ /usr/include/qt/QtGui/qpainter.h /usr/include/qt/QtGui/qtextoption.h \
+ /usr/include/qt/QtWidgets/qscrollarea.h \
+ /usr/include/qt/QtWidgets/qabstractscrollarea.h \
+ /usr/include/qt/QtWidgets/qframe.h \
+ /usr/include/qt/QtWidgets/qgraphicsscene.h \
+ /usr/include/qt/QtWidgets/QGraphicsItem \
+ /usr/include/qt/QtWidgets/qgraphicsitem.h \
+ /usr/include/qt/QtGui/qpainterpath.h \
+ /usr/include/qt/QtWidgets/QGraphicsRectItem /usr/include/qt/QtGui/QPen \
+ /usr/include/qt/QtGui/qpen.h /usr/include/qt/QtGui/QBrush \
+ /usr/include/qt/QtGui/qbrush.h /usr/include/qt/QtGui/QColor \
+ /usr/include/qt/QtGui/qcolor.h /usr/include/c++/13.2.1/iostream \
+ /usr/include/c++/13.2.1/ostream /usr/include/c++/13.2.1/ios \
+ /usr/include/c++/13.2.1/bits/basic_ios.h \
+ /usr/include/c++/13.2.1/bits/locale_facets.h \
+ /usr/include/c++/13.2.1/cwctype /usr/include/wctype.h \
+ /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/13.2.1/bits/locale_facets.tcc \
+ /usr/include/c++/13.2.1/bits/basic_ios.tcc \
+ /usr/include/c++/13.2.1/bits/ostream.tcc /usr/include/c++/13.2.1/istream \
+ /usr/include/c++/13.2.1/bits/istream.tcc \
+ /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/../controller/Box.h \
+ /usr/include/qt/QtCore/qglobal.h /usr/include/qt/QtCore/qobjectdefs.h \
  /usr/include/qt/QtWidgets/qmainwindow.h \
  /usr/include/qt/QtWidgets/QApplication \
  /usr/include/qt/QtWidgets/qapplication.h \

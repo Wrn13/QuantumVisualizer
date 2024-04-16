@@ -250,11 +250,83 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: \
  /usr/include/qt/QtWidgets/qaction.h /usr/include/qt/QtCore/qvariant.h \
  /usr/include/qt/QtCore/qmap.h /usr/include/c++/13.2.1/variant \
  /usr/include/qt/QtWidgets/qactiongroup.h \
+ /usr/include/qt/QtWidgets/QPushButton \
+ /usr/include/qt/QtWidgets/qpushbutton.h \
+ /usr/include/qt/QtWidgets/qabstractbutton.h \
+ /usr/include/qt/QtWidgets/QVBoxLayout \
+ /usr/include/qt/QtWidgets/qboxlayout.h \
+ /usr/include/qt/QtWidgets/qlayout.h \
+ /usr/include/qt/QtWidgets/qlayoutitem.h \
+ /usr/include/qt/QtWidgets/qboxlayout.h \
+ /usr/include/qt/QtWidgets/qgridlayout.h \
  /usr/include/qt/QtWidgets/QMenuBar /usr/include/qt/QtWidgets/qmenubar.h \
  /usr/include/qt/QtWidgets/qmenu.h /usr/include/qt/QtWidgets/QStatusBar \
- /usr/include/qt/QtWidgets/qstatusbar.h /usr/include/qt/QtCore/qglobal.h \
- /usr/include/qt/QtCore/qobjectdefs.h \
+ /usr/include/qt/QtWidgets/qstatusbar.h \
+ /usr/include/qt/QtWidgets/QGraphicsScene \
+ /usr/include/qt/QtWidgets/qgraphicsscene.h /usr/include/qt/QtGui/qpen.h \
+ /usr/include/qt/QtWidgets/QGraphicsView \
+ /usr/include/qt/QtWidgets/qgraphicsview.h \
+ /usr/include/qt/QtGui/qpainter.h /usr/include/qt/QtGui/qtextoption.h \
+ /usr/include/qt/QtWidgets/qscrollarea.h \
+ /usr/include/qt/QtWidgets/qabstractscrollarea.h \
+ /usr/include/qt/QtWidgets/qframe.h \
+ /usr/include/qt/QtWidgets/qgraphicsscene.h \
+ /usr/include/qt/QtWidgets/QGraphicsItem \
+ /usr/include/qt/QtWidgets/qgraphicsitem.h \
+ /usr/include/qt/QtGui/qpainterpath.h \
+ /usr/include/qt/QtWidgets/QGraphicsRectItem /usr/include/qt/QtGui/QPen \
+ /usr/include/qt/QtGui/qpen.h /usr/include/qt/QtGui/QBrush \
+ /usr/include/qt/QtGui/qbrush.h /usr/include/qt/QtGui/QColor \
+ /usr/include/qt/QtGui/qcolor.h /usr/include/c++/13.2.1/iostream \
+ /usr/include/c++/13.2.1/ostream /usr/include/c++/13.2.1/ios \
+ /usr/include/c++/13.2.1/bits/basic_ios.h \
+ /usr/include/c++/13.2.1/bits/locale_facets.h \
+ /usr/include/c++/13.2.1/cwctype /usr/include/wctype.h \
+ /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/13.2.1/bits/locale_facets.tcc \
+ /usr/include/c++/13.2.1/bits/basic_ios.tcc \
+ /usr/include/c++/13.2.1/bits/ostream.tcc /usr/include/c++/13.2.1/istream \
+ /usr/include/c++/13.2.1/bits/istream.tcc \
+ /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/../controller/Box.h \
+ /usr/include/qt/QtCore/qglobal.h /usr/include/qt/QtCore/qobjectdefs.h \
  /usr/include/qt/QtWidgets/qmainwindow.h \
+ /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/../model/Potential.h \
+ /usr/include/gsl/gsl_matrix.h \
+ /usr/include/gsl/gsl_matrix_complex_long_double.h \
+ /usr/include/gsl/gsl_types.h /usr/include/gsl/gsl_errno.h \
+ /usr/include/gsl/gsl_complex.h /usr/include/gsl/gsl_check_range.h \
+ /usr/include/gsl/gsl_vector_complex_long_double.h \
+ /usr/include/gsl/gsl_vector_long_double.h /usr/include/gsl/gsl_inline.h \
+ /usr/include/gsl/gsl_block_long_double.h \
+ /usr/include/gsl/gsl_vector_complex.h \
+ /usr/include/gsl/gsl_block_complex_long_double.h \
+ /usr/include/gsl/gsl_blas_types.h /usr/include/gsl/gsl_cblas.h \
+ /usr/include/gsl/gsl_matrix_complex_double.h \
+ /usr/include/gsl/gsl_vector_complex_double.h \
+ /usr/include/gsl/gsl_vector_double.h /usr/include/gsl/gsl_block_double.h \
+ /usr/include/gsl/gsl_block_complex_double.h \
+ /usr/include/gsl/gsl_matrix_complex_float.h \
+ /usr/include/gsl/gsl_vector_complex_float.h \
+ /usr/include/gsl/gsl_vector_float.h /usr/include/gsl/gsl_block_float.h \
+ /usr/include/gsl/gsl_block_complex_float.h \
+ /usr/include/gsl/gsl_matrix_long_double.h \
+ /usr/include/gsl/gsl_matrix_double.h /usr/include/gsl/gsl_matrix_float.h \
+ /usr/include/gsl/gsl_matrix_ulong.h /usr/include/gsl/gsl_vector_ulong.h \
+ /usr/include/gsl/gsl_block_ulong.h /usr/include/gsl/gsl_matrix_long.h \
+ /usr/include/gsl/gsl_vector_long.h /usr/include/gsl/gsl_block_long.h \
+ /usr/include/gsl/gsl_matrix_uint.h /usr/include/gsl/gsl_vector_uint.h \
+ /usr/include/gsl/gsl_block_uint.h /usr/include/gsl/gsl_matrix_int.h \
+ /usr/include/gsl/gsl_vector_int.h /usr/include/gsl/gsl_block_int.h \
+ /usr/include/gsl/gsl_matrix_ushort.h \
+ /usr/include/gsl/gsl_vector_ushort.h /usr/include/gsl/gsl_block_ushort.h \
+ /usr/include/gsl/gsl_matrix_short.h /usr/include/gsl/gsl_vector_short.h \
+ /usr/include/gsl/gsl_block_short.h /usr/include/gsl/gsl_matrix_uchar.h \
+ /usr/include/gsl/gsl_vector_uchar.h /usr/include/gsl/gsl_block_uchar.h \
+ /usr/include/gsl/gsl_matrix_char.h /usr/include/gsl/gsl_vector_char.h \
+ /usr/include/gsl/gsl_block_char.h \
+ /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/../model/../controller/Box.h \
  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include/ui_quantumvisualizer.h \
  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
  /usr/include/qt/QtWidgets/QApplication \
@@ -264,22 +336,9 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: \
  /usr/include/qt/QtGui/qguiapplication.h \
  /usr/include/qt/QtGui/qinputmethod.h /usr/include/qt/QtCore/qlocale.h \
  /usr/include/qt/QtWidgets/QGraphicsView \
- /usr/include/qt/QtWidgets/qgraphicsview.h \
- /usr/include/qt/QtGui/qpainter.h /usr/include/qt/QtGui/qtextoption.h \
- /usr/include/qt/QtGui/qpen.h /usr/include/qt/QtWidgets/qscrollarea.h \
- /usr/include/qt/QtWidgets/qabstractscrollarea.h \
- /usr/include/qt/QtWidgets/qframe.h \
- /usr/include/qt/QtWidgets/qgraphicsscene.h \
- /usr/include/qt/QtWidgets/QHBoxLayout \
- /usr/include/qt/QtWidgets/qboxlayout.h \
- /usr/include/qt/QtWidgets/qlayout.h \
- /usr/include/qt/QtWidgets/qlayoutitem.h \
- /usr/include/qt/QtWidgets/qboxlayout.h \
- /usr/include/qt/QtWidgets/qgridlayout.h /usr/include/qt/QtWidgets/QLabel \
+ /usr/include/qt/QtWidgets/QHBoxLayout /usr/include/qt/QtWidgets/QLabel \
  /usr/include/qt/QtWidgets/qlabel.h /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/QMenuBar /usr/include/qt/QtWidgets/QPushButton \
- /usr/include/qt/QtWidgets/qpushbutton.h \
- /usr/include/qt/QtWidgets/qabstractbutton.h \
  /usr/include/qt/QtWidgets/QSpacerItem \
  /usr/include/qt/QtWidgets/qlayoutitem.h \
  /usr/include/qt/QtWidgets/QStatusBar /usr/include/qt/QtWidgets/QTextEdit \
@@ -288,5 +347,7 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: \
  /usr/include/qt/QtGui/qtextcursor.h /usr/include/qt/QtGui/qtextformat.h \
  /usr/include/qt/QtWidgets/QToolBar /usr/include/qt/QtWidgets/QVBoxLayout \
  /usr/include/qt/QtWidgets/QWidget \
+ /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/../model/Hamiltonian.h \
+ /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/../model/Potential.h \
  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include/moc_quantumvisualizer.cpp \
  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include/../../../src/view/quantumvisualizer.h

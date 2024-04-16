@@ -5,10 +5,6 @@
 #include <QScopedPointer>
 #include <QMouseEvent>
 
-namespace Ui {
-    class DrawArea;
-}
-
 class DrawArea : public QGraphicsView
 {
     Q_OBJECT
@@ -29,7 +25,6 @@ protected:
     void mousePressEvent(QMouseEvent *event) override;
     void mouseMoveEvent(QMouseEvent * event) override;
     void mouseReleaseEvent(QMouseEvent * event) override;
-    void paintEvent();
 private:
     bool modified;
 };

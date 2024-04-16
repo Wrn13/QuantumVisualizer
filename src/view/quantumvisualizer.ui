@@ -16,7 +16,7 @@
   <widget class="QWidget" name="centralWidget">
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
-     <widget class="QGraphicsView" name="DrawArea"/>
+     <widget class="QGraphicsView" name="DrawView"/>
     </item>
     <item>
      <spacer name="verticalSpacer">
@@ -101,5 +101,22 @@
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>BtnSubmit</sender>
+   <signal>clicked()</signal>
+   <receiver>QuantumVisualizer</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1443</x>
+     <y>1064</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>959</x>
+     <y>554</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

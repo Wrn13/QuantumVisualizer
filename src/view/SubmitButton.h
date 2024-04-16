@@ -8,7 +8,7 @@ class SubmitButton : QPushButton {
     public:
         SubmitButton();
     protected:
-        void solveHamiltonian(std::vector<Box> potentials);
+        
     private slots:
         
     private:

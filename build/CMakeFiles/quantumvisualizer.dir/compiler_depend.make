@@ -6,6 +6,7 @@ quantumvisualizer_autogen/timestamp: /home/wrnalp13/Desktop/ProgrammingFiles/Com
   CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   CMakeFiles/3.28.3/CMakeSystem.cmake \
   quantumvisualizer_autogen/moc_predefs.h \
+  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/controller/Box.h \
   /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/main.cpp \
   /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Hamiltonian.cpp \
   /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Hamiltonian.h \
@@ -125,6 +126,7 @@ quantumvisualizer_autogen/timestamp: /home/wrnalp13/Desktop/ProgrammingFiles/Com
   /usr/include/c++/13.2.1/bits/hash_bytes.h \
   /usr/include/c++/13.2.1/bits/invoke.h \
   /usr/include/c++/13.2.1/bits/ios_base.h \
+  /usr/include/c++/13.2.1/bits/istream.tcc \
   /usr/include/c++/13.2.1/bits/iterator_concepts.h \
   /usr/include/c++/13.2.1/bits/list.tcc \
   /usr/include/c++/13.2.1/bits/locale_classes.h \
@@ -216,6 +218,8 @@ quantumvisualizer_autogen/timestamp: /home/wrnalp13/Desktop/ProgrammingFiles/Com
   /usr/include/c++/13.2.1/initializer_list \
   /usr/include/c++/13.2.1/ios \
   /usr/include/c++/13.2.1/iosfwd \
+  /usr/include/c++/13.2.1/iostream \
+  /usr/include/c++/13.2.1/istream \
   /usr/include/c++/13.2.1/iterator \
   /usr/include/c++/13.2.1/limits \
   /usr/include/c++/13.2.1/list \
@@ -321,6 +325,9 @@ quantumvisualizer_autogen/timestamp: /home/wrnalp13/Desktop/ProgrammingFiles/Com
   /usr/include/qt/QtCore/qvarlengtharray.h \
   /usr/include/qt/QtCore/qvector.h \
   /usr/include/qt/QtCore/qversiontagging.h \
+  /usr/include/qt/QtGui/QBrush \
+  /usr/include/qt/QtGui/QColor \
+  /usr/include/qt/QtGui/QPen \
   /usr/include/qt/QtGui/qbrush.h \
   /usr/include/qt/QtGui/qcolor.h \
   /usr/include/qt/QtGui/qcursor.h \
@@ -332,27 +339,49 @@ quantumvisualizer_autogen/timestamp: /home/wrnalp13/Desktop/ProgrammingFiles/Com
   /usr/include/qt/QtGui/qkeysequence.h \
   /usr/include/qt/QtGui/qmatrix.h \
   /usr/include/qt/QtGui/qpaintdevice.h \
+  /usr/include/qt/QtGui/qpainter.h \
+  /usr/include/qt/QtGui/qpainterpath.h \
   /usr/include/qt/QtGui/qpalette.h \
+  /usr/include/qt/QtGui/qpen.h \
   /usr/include/qt/QtGui/qpixelformat.h \
   /usr/include/qt/QtGui/qpixmap.h \
   /usr/include/qt/QtGui/qpolygon.h \
   /usr/include/qt/QtGui/qregion.h \
   /usr/include/qt/QtGui/qrgb.h \
   /usr/include/qt/QtGui/qrgba64.h \
+  /usr/include/qt/QtGui/qtextoption.h \
   /usr/include/qt/QtGui/qtgui-config.h \
   /usr/include/qt/QtGui/qtguiglobal.h \
   /usr/include/qt/QtGui/qtransform.h \
   /usr/include/qt/QtGui/qwindowdefs.h \
+  /usr/include/qt/QtWidgets/QGraphicsItem \
+  /usr/include/qt/QtWidgets/QGraphicsRectItem \
+  /usr/include/qt/QtWidgets/QGraphicsScene \
+  /usr/include/qt/QtWidgets/QGraphicsView \
   /usr/include/qt/QtWidgets/QMainWindow \
   /usr/include/qt/QtWidgets/QMenuBar \
+  /usr/include/qt/QtWidgets/QPushButton \
   /usr/include/qt/QtWidgets/QStatusBar \
   /usr/include/qt/QtWidgets/QToolBar \
+  /usr/include/qt/QtWidgets/QVBoxLayout \
   /usr/include/qt/QtWidgets/QWidget \
+  /usr/include/qt/QtWidgets/qabstractbutton.h \
+  /usr/include/qt/QtWidgets/qabstractscrollarea.h \
   /usr/include/qt/QtWidgets/qaction.h \
   /usr/include/qt/QtWidgets/qactiongroup.h \
+  /usr/include/qt/QtWidgets/qboxlayout.h \
+  /usr/include/qt/QtWidgets/qframe.h \
+  /usr/include/qt/QtWidgets/qgraphicsitem.h \
+  /usr/include/qt/QtWidgets/qgraphicsscene.h \
+  /usr/include/qt/QtWidgets/qgraphicsview.h \
+  /usr/include/qt/QtWidgets/qgridlayout.h \
+  /usr/include/qt/QtWidgets/qlayout.h \
+  /usr/include/qt/QtWidgets/qlayoutitem.h \
   /usr/include/qt/QtWidgets/qmainwindow.h \
   /usr/include/qt/QtWidgets/qmenu.h \
   /usr/include/qt/QtWidgets/qmenubar.h \
+  /usr/include/qt/QtWidgets/qpushbutton.h \
+  /usr/include/qt/QtWidgets/qscrollarea.h \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
   /usr/include/qt/QtWidgets/qstatusbar.h \
   /usr/include/qt/QtWidgets/qtabwidget.h \
@@ -459,6 +488,7 @@ quantumvisualizer_autogen/timestamp: /home/wrnalp13/Desktop/ProgrammingFiles/Com
   CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   CMakeFiles/3.28.3/CMakeSystem.cmake \
   quantumvisualizer_autogen/moc_predefs.h \
+  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/controller/Box.h \
   /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/main.cpp \
   /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Hamiltonian.cpp \
   /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Hamiltonian.h \
@@ -578,6 +608,7 @@ quantumvisualizer_autogen/timestamp: /home/wrnalp13/Desktop/ProgrammingFiles/Com
   /usr/include/c++/13.2.1/bits/hash_bytes.h \
   /usr/include/c++/13.2.1/bits/invoke.h \
   /usr/include/c++/13.2.1/bits/ios_base.h \
+  /usr/include/c++/13.2.1/bits/istream.tcc \
   /usr/include/c++/13.2.1/bits/iterator_concepts.h \
   /usr/include/c++/13.2.1/bits/list.tcc \
   /usr/include/c++/13.2.1/bits/locale_classes.h \
@@ -669,6 +700,8 @@ quantumvisualizer_autogen/timestamp: /home/wrnalp13/Desktop/ProgrammingFiles/Com
   /usr/include/c++/13.2.1/initializer_list \
   /usr/include/c++/13.2.1/ios \
   /usr/include/c++/13.2.1/iosfwd \
+  /usr/include/c++/13.2.1/iostream \
+  /usr/include/c++/13.2.1/istream \
   /usr/include/c++/13.2.1/iterator \
   /usr/include/c++/13.2.1/limits \
   /usr/include/c++/13.2.1/list \
@@ -774,6 +807,9 @@ quantumvisualizer_autogen/timestamp: /home/wrnalp13/Desktop/ProgrammingFiles/Com
   /usr/include/qt/QtCore/qvarlengtharray.h \
   /usr/include/qt/QtCore/qvector.h \
   /usr/include/qt/QtCore/qversiontagging.h \
+  /usr/include/qt/QtGui/QBrush \
+  /usr/include/qt/QtGui/QColor \
+  /usr/include/qt/QtGui/QPen \
   /usr/include/qt/QtGui/qbrush.h \
   /usr/include/qt/QtGui/qcolor.h \
   /usr/include/qt/QtGui/qcursor.h \
@@ -785,480 +821,49 @@ quantumvisualizer_autogen/timestamp: /home/wrnalp13/Desktop/ProgrammingFiles/Com
   /usr/include/qt/QtGui/qkeysequence.h \
   /usr/include/qt/QtGui/qmatrix.h \
   /usr/include/qt/QtGui/qpaintdevice.h \
+  /usr/include/qt/QtGui/qpainter.h \
+  /usr/include/qt/QtGui/qpainterpath.h \
   /usr/include/qt/QtGui/qpalette.h \
+  /usr/include/qt/QtGui/qpen.h \
   /usr/include/qt/QtGui/qpixelformat.h \
   /usr/include/qt/QtGui/qpixmap.h \
   /usr/include/qt/QtGui/qpolygon.h \
   /usr/include/qt/QtGui/qregion.h \
   /usr/include/qt/QtGui/qrgb.h \
   /usr/include/qt/QtGui/qrgba64.h \
+  /usr/include/qt/QtGui/qtextoption.h \
   /usr/include/qt/QtGui/qtgui-config.h \
   /usr/include/qt/QtGui/qtguiglobal.h \
   /usr/include/qt/QtGui/qtransform.h \
   /usr/include/qt/QtGui/qwindowdefs.h \
+  /usr/include/qt/QtWidgets/QGraphicsItem \
+  /usr/include/qt/QtWidgets/QGraphicsRectItem \
+  /usr/include/qt/QtWidgets/QGraphicsScene \
+  /usr/include/qt/QtWidgets/QGraphicsView \
   /usr/include/qt/QtWidgets/QMainWindow \
   /usr/include/qt/QtWidgets/QMenuBar \
+  /usr/include/qt/QtWidgets/QPushButton \
   /usr/include/qt/QtWidgets/QStatusBar \
   /usr/include/qt/QtWidgets/QToolBar \
+  /usr/include/qt/QtWidgets/QVBoxLayout \
   /usr/include/qt/QtWidgets/QWidget \
+  /usr/include/qt/QtWidgets/qabstractbutton.h \
+  /usr/include/qt/QtWidgets/qabstractscrollarea.h \
   /usr/include/qt/QtWidgets/qaction.h \
   /usr/include/qt/QtWidgets/qactiongroup.h \
+  /usr/include/qt/QtWidgets/qboxlayout.h \
+  /usr/include/qt/QtWidgets/qframe.h \
+  /usr/include/qt/QtWidgets/qgraphicsitem.h \
+  /usr/include/qt/QtWidgets/qgraphicsscene.h \
+  /usr/include/qt/QtWidgets/qgraphicsview.h \
+  /usr/include/qt/QtWidgets/qgridlayout.h \
+  /usr/include/qt/QtWidgets/qlayout.h \
+  /usr/include/qt/QtWidgets/qlayoutitem.h \
   /usr/include/qt/QtWidgets/qmainwindow.h \
   /usr/include/qt/QtWidgets/qmenu.h \
   /usr/include/qt/QtWidgets/qmenubar.h \
-  /usr/include/qt/QtWidgets/qsizepolicy.h \
-  /usr/include/qt/QtWidgets/qstatusbar.h \
-  /usr/include/qt/QtWidgets/qtabwidget.h \
-  /usr/include/qt/QtWidgets/qtoolbar.h \
-  /usr/include/qt/QtWidgets/qtwidgets-config.h \
-  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
-  /usr/include/qt/QtWidgets/qwidget.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/sys/cdefs.h \
-  /usr/include/sys/select.h \
-  /usr/include/sys/syscall.h \
-  /usr/include/sys/types.h \
-  /usr/include/syscall.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake \
-  /usr/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake \
-  /usr/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake \
-  /usr/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake \
-  /usr/lib/cmake/Qt5Core/Qt5CoreMacros.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QTsLibPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake \
-  /usr/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake \
-  /usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake \
-  /usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
-  /usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
-  /usr/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h \
-  /usr/share/cmake/Modules/CMakeCInformation.cmake \
-  /usr/share/cmake/Modules/CMakeCXXInformation.cmake \
-  /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/share/cmake/Modules/CMakeGenericSystem.cmake \
-  /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake \
-  /usr/share/cmake/Modules/CMakeLanguageInformation.cmake \
-  /usr/share/cmake/Modules/CMakeParseArguments.cmake \
-  /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
-  /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/share/cmake/Modules/Compiler/GNU-C.cmake \
-  /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake \
-  /usr/share/cmake/Modules/Compiler/GNU.cmake \
-  /usr/share/cmake/Modules/FindGSL.cmake \
-  /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
-  /usr/share/cmake/Modules/FindPackageMessage.cmake \
-  /usr/share/cmake/Modules/FindPkgConfig.cmake \
-  /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake \
-  /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake \
-  /usr/share/cmake/Modules/Platform/Linux-GNU.cmake \
-  /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake \
-  /usr/share/cmake/Modules/Platform/Linux.cmake \
-  /usr/share/cmake/Modules/Platform/UnixPaths.cmake \
-  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/CMakeLists.txt \
-  CMakeFiles/3.28.3/CMakeCCompiler.cmake \
-  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.28.3/CMakeSystem.cmake \
-  quantumvisualizer_autogen/moc_predefs.h \
-  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/main.cpp \
-  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Hamiltonian.cpp \
-  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Hamiltonian.h \
-  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Potential.cpp \
-  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Potential.h \
-  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.cpp \
-  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.h \
-  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.ui \
-  /usr/bin/cmake \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm/errno.h \
-  /usr/include/asm/unistd.h \
-  /usr/include/asm/unistd_64.h \
-  /usr/include/assert.h \
-  /usr/include/bits/atomic_wide_counter.h \
-  /usr/include/bits/byteswap.h \
-  /usr/include/bits/confname.h \
-  /usr/include/bits/cpu-set.h \
-  /usr/include/bits/endian.h \
-  /usr/include/bits/endianness.h \
-  /usr/include/bits/environments.h \
-  /usr/include/bits/errno.h \
-  /usr/include/bits/floatn-common.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/getopt_core.h \
-  /usr/include/bits/getopt_posix.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/local_lim.h \
-  /usr/include/bits/locale.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/bits/posix1_lim.h \
-  /usr/include/bits/posix2_lim.h \
-  /usr/include/bits/posix_opt.h \
-  /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/bits/pthreadtypes-arch.h \
-  /usr/include/bits/pthreadtypes.h \
-  /usr/include/bits/sched.h \
-  /usr/include/bits/select.h \
-  /usr/include/bits/setjmp.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdint-least.h \
-  /usr/include/bits/stdint-uintn.h \
-  /usr/include/bits/stdlib-float.h \
-  /usr/include/bits/struct_mutex.h \
-  /usr/include/bits/struct_rwlock.h \
-  /usr/include/bits/syscall.h \
-  /usr/include/bits/thread-shared-types.h \
-  /usr/include/bits/time.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/timex.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/bits/types/__mbstate_t.h \
-  /usr/include/bits/types/__sigset_t.h \
-  /usr/include/bits/types/clock_t.h \
-  /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/error_t.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/mbstate_t.h \
-  /usr/include/bits/types/sigset_t.h \
-  /usr/include/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/bits/types/struct_itimerspec.h \
-  /usr/include/bits/types/struct_sched_param.h \
-  /usr/include/bits/types/struct_timespec.h \
-  /usr/include/bits/types/struct_timeval.h \
-  /usr/include/bits/types/struct_tm.h \
-  /usr/include/bits/types/time_t.h \
-  /usr/include/bits/types/timer_t.h \
-  /usr/include/bits/types/wint_t.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/uintn-identity.h \
-  /usr/include/bits/uio_lim.h \
-  /usr/include/bits/unistd_ext.h \
-  /usr/include/bits/waitflags.h \
-  /usr/include/bits/waitstatus.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/wctype-wchar.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/bits/xopen_lim.h \
-  /usr/include/c++/13.2.1/algorithm \
-  /usr/include/c++/13.2.1/array \
-  /usr/include/c++/13.2.1/atomic \
-  /usr/include/c++/13.2.1/backward/auto_ptr.h \
-  /usr/include/c++/13.2.1/backward/binders.h \
-  /usr/include/c++/13.2.1/bit \
-  /usr/include/c++/13.2.1/bits/algorithmfwd.h \
-  /usr/include/c++/13.2.1/bits/align.h \
-  /usr/include/c++/13.2.1/bits/alloc_traits.h \
-  /usr/include/c++/13.2.1/bits/allocated_ptr.h \
-  /usr/include/c++/13.2.1/bits/allocator.h \
-  /usr/include/c++/13.2.1/bits/atomic_base.h \
-  /usr/include/c++/13.2.1/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/13.2.1/bits/atomic_wait.h \
-  /usr/include/c++/13.2.1/bits/basic_ios.h \
-  /usr/include/c++/13.2.1/bits/basic_ios.tcc \
-  /usr/include/c++/13.2.1/bits/basic_string.h \
-  /usr/include/c++/13.2.1/bits/basic_string.tcc \
-  /usr/include/c++/13.2.1/bits/c++0x_warning.h \
-  /usr/include/c++/13.2.1/bits/char_traits.h \
-  /usr/include/c++/13.2.1/bits/charconv.h \
-  /usr/include/c++/13.2.1/bits/concept_check.h \
-  /usr/include/c++/13.2.1/bits/cpp_type_traits.h \
-  /usr/include/c++/13.2.1/bits/cxxabi_forced.h \
-  /usr/include/c++/13.2.1/bits/cxxabi_init_exception.h \
-  /usr/include/c++/13.2.1/bits/enable_special_members.h \
-  /usr/include/c++/13.2.1/bits/erase_if.h \
-  /usr/include/c++/13.2.1/bits/exception.h \
-  /usr/include/c++/13.2.1/bits/exception_defines.h \
-  /usr/include/c++/13.2.1/bits/exception_ptr.h \
-  /usr/include/c++/13.2.1/bits/functexcept.h \
-  /usr/include/c++/13.2.1/bits/functional_hash.h \
-  /usr/include/c++/13.2.1/bits/hash_bytes.h \
-  /usr/include/c++/13.2.1/bits/invoke.h \
-  /usr/include/c++/13.2.1/bits/ios_base.h \
-  /usr/include/c++/13.2.1/bits/iterator_concepts.h \
-  /usr/include/c++/13.2.1/bits/list.tcc \
-  /usr/include/c++/13.2.1/bits/locale_classes.h \
-  /usr/include/c++/13.2.1/bits/locale_classes.tcc \
-  /usr/include/c++/13.2.1/bits/locale_facets.h \
-  /usr/include/c++/13.2.1/bits/locale_facets.tcc \
-  /usr/include/c++/13.2.1/bits/localefwd.h \
-  /usr/include/c++/13.2.1/bits/max_size_type.h \
-  /usr/include/c++/13.2.1/bits/memory_resource.h \
-  /usr/include/c++/13.2.1/bits/memoryfwd.h \
-  /usr/include/c++/13.2.1/bits/mofunc_impl.h \
-  /usr/include/c++/13.2.1/bits/move.h \
-  /usr/include/c++/13.2.1/bits/move_only_function.h \
-  /usr/include/c++/13.2.1/bits/nested_exception.h \
-  /usr/include/c++/13.2.1/bits/new_allocator.h \
-  /usr/include/c++/13.2.1/bits/node_handle.h \
-  /usr/include/c++/13.2.1/bits/ostream.tcc \
-  /usr/include/c++/13.2.1/bits/ostream_insert.h \
-  /usr/include/c++/13.2.1/bits/postypes.h \
-  /usr/include/c++/13.2.1/bits/predefined_ops.h \
-  /usr/include/c++/13.2.1/bits/ptr_traits.h \
-  /usr/include/c++/13.2.1/bits/range_access.h \
-  /usr/include/c++/13.2.1/bits/ranges_algo.h \
-  /usr/include/c++/13.2.1/bits/ranges_algobase.h \
-  /usr/include/c++/13.2.1/bits/ranges_base.h \
-  /usr/include/c++/13.2.1/bits/ranges_cmp.h \
-  /usr/include/c++/13.2.1/bits/ranges_uninitialized.h \
-  /usr/include/c++/13.2.1/bits/ranges_util.h \
-  /usr/include/c++/13.2.1/bits/refwrap.h \
-  /usr/include/c++/13.2.1/bits/requires_hosted.h \
-  /usr/include/c++/13.2.1/bits/shared_ptr.h \
-  /usr/include/c++/13.2.1/bits/shared_ptr_atomic.h \
-  /usr/include/c++/13.2.1/bits/shared_ptr_base.h \
-  /usr/include/c++/13.2.1/bits/std_abs.h \
-  /usr/include/c++/13.2.1/bits/std_function.h \
-  /usr/include/c++/13.2.1/bits/std_mutex.h \
-  /usr/include/c++/13.2.1/bits/stl_algo.h \
-  /usr/include/c++/13.2.1/bits/stl_algobase.h \
-  /usr/include/c++/13.2.1/bits/stl_bvector.h \
-  /usr/include/c++/13.2.1/bits/stl_construct.h \
-  /usr/include/c++/13.2.1/bits/stl_function.h \
-  /usr/include/c++/13.2.1/bits/stl_heap.h \
-  /usr/include/c++/13.2.1/bits/stl_iterator.h \
-  /usr/include/c++/13.2.1/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/13.2.1/bits/stl_iterator_base_types.h \
-  /usr/include/c++/13.2.1/bits/stl_list.h \
-  /usr/include/c++/13.2.1/bits/stl_map.h \
-  /usr/include/c++/13.2.1/bits/stl_multimap.h \
-  /usr/include/c++/13.2.1/bits/stl_numeric.h \
-  /usr/include/c++/13.2.1/bits/stl_pair.h \
-  /usr/include/c++/13.2.1/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/13.2.1/bits/stl_relops.h \
-  /usr/include/c++/13.2.1/bits/stl_tempbuf.h \
-  /usr/include/c++/13.2.1/bits/stl_tree.h \
-  /usr/include/c++/13.2.1/bits/stl_uninitialized.h \
-  /usr/include/c++/13.2.1/bits/stl_vector.h \
-  /usr/include/c++/13.2.1/bits/stream_iterator.h \
-  /usr/include/c++/13.2.1/bits/streambuf.tcc \
-  /usr/include/c++/13.2.1/bits/streambuf_iterator.h \
-  /usr/include/c++/13.2.1/bits/string_view.tcc \
-  /usr/include/c++/13.2.1/bits/stringfwd.h \
-  /usr/include/c++/13.2.1/bits/uniform_int_dist.h \
-  /usr/include/c++/13.2.1/bits/unique_ptr.h \
-  /usr/include/c++/13.2.1/bits/uses_allocator.h \
-  /usr/include/c++/13.2.1/bits/uses_allocator_args.h \
-  /usr/include/c++/13.2.1/bits/utility.h \
-  /usr/include/c++/13.2.1/bits/vector.tcc \
-  /usr/include/c++/13.2.1/cctype \
-  /usr/include/c++/13.2.1/cerrno \
-  /usr/include/c++/13.2.1/climits \
-  /usr/include/c++/13.2.1/clocale \
-  /usr/include/c++/13.2.1/compare \
-  /usr/include/c++/13.2.1/concepts \
-  /usr/include/c++/13.2.1/cstddef \
-  /usr/include/c++/13.2.1/cstdlib \
-  /usr/include/c++/13.2.1/cwchar \
-  /usr/include/c++/13.2.1/cwctype \
-  /usr/include/c++/13.2.1/debug/assertions.h \
-  /usr/include/c++/13.2.1/debug/debug.h \
-  /usr/include/c++/13.2.1/exception \
-  /usr/include/c++/13.2.1/ext/aligned_buffer.h \
-  /usr/include/c++/13.2.1/ext/alloc_traits.h \
-  /usr/include/c++/13.2.1/ext/atomicity.h \
-  /usr/include/c++/13.2.1/ext/concurrence.h \
-  /usr/include/c++/13.2.1/ext/numeric_traits.h \
-  /usr/include/c++/13.2.1/ext/string_conversions.h \
-  /usr/include/c++/13.2.1/ext/type_traits.h \
-  /usr/include/c++/13.2.1/functional \
-  /usr/include/c++/13.2.1/initializer_list \
-  /usr/include/c++/13.2.1/ios \
-  /usr/include/c++/13.2.1/iosfwd \
-  /usr/include/c++/13.2.1/iterator \
-  /usr/include/c++/13.2.1/limits \
-  /usr/include/c++/13.2.1/list \
-  /usr/include/c++/13.2.1/map \
-  /usr/include/c++/13.2.1/memory \
-  /usr/include/c++/13.2.1/new \
-  /usr/include/c++/13.2.1/numbers \
-  /usr/include/c++/13.2.1/numeric \
-  /usr/include/c++/13.2.1/optional \
-  /usr/include/c++/13.2.1/ostream \
-  /usr/include/c++/13.2.1/pstl/execution_defs.h \
-  /usr/include/c++/13.2.1/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/13.2.1/pstl/glue_memory_defs.h \
-  /usr/include/c++/13.2.1/pstl/glue_numeric_defs.h \
-  /usr/include/c++/13.2.1/stdexcept \
-  /usr/include/c++/13.2.1/streambuf \
-  /usr/include/c++/13.2.1/string \
-  /usr/include/c++/13.2.1/string_view \
-  /usr/include/c++/13.2.1/tuple \
-  /usr/include/c++/13.2.1/type_traits \
-  /usr/include/c++/13.2.1/typeinfo \
-  /usr/include/c++/13.2.1/unordered_map \
-  /usr/include/c++/13.2.1/utility \
-  /usr/include/c++/13.2.1/vector \
-  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
-  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
-  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
-  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
-  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
-  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
-  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
-  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
-  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
-  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/gnu/stubs-64.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/locale.h \
-  /usr/include/pthread.h \
-  /usr/include/qt/QtCore/QScopedPointer \
-  /usr/include/qt/QtCore/qalgorithms.h \
-  /usr/include/qt/QtCore/qarraydata.h \
-  /usr/include/qt/QtCore/qatomic.h \
-  /usr/include/qt/QtCore/qatomic_cxx11.h \
-  /usr/include/qt/QtCore/qbasicatomic.h \
-  /usr/include/qt/QtCore/qbytearray.h \
-  /usr/include/qt/QtCore/qbytearraylist.h \
-  /usr/include/qt/QtCore/qchar.h \
-  /usr/include/qt/QtCore/qcompilerdetection.h \
-  /usr/include/qt/QtCore/qconfig.h \
-  /usr/include/qt/QtCore/qcontainerfwd.h \
-  /usr/include/qt/QtCore/qcontainertools_impl.h \
-  /usr/include/qt/QtCore/qdatastream.h \
-  /usr/include/qt/QtCore/qflags.h \
-  /usr/include/qt/QtCore/qgenericatomic.h \
-  /usr/include/qt/QtCore/qglobal.h \
-  /usr/include/qt/QtCore/qglobalstatic.h \
-  /usr/include/qt/QtCore/qhash.h \
-  /usr/include/qt/QtCore/qhashfunctions.h \
-  /usr/include/qt/QtCore/qiodevice.h \
-  /usr/include/qt/QtCore/qiterator.h \
-  /usr/include/qt/QtCore/qline.h \
-  /usr/include/qt/QtCore/qlist.h \
-  /usr/include/qt/QtCore/qlogging.h \
-  /usr/include/qt/QtCore/qmap.h \
-  /usr/include/qt/QtCore/qmargins.h \
-  /usr/include/qt/QtCore/qmetatype.h \
-  /usr/include/qt/QtCore/qnamespace.h \
-  /usr/include/qt/QtCore/qnumeric.h \
-  /usr/include/qt/QtCore/qobject.h \
-  /usr/include/qt/QtCore/qobject_impl.h \
-  /usr/include/qt/QtCore/qobjectdefs.h \
-  /usr/include/qt/QtCore/qobjectdefs_impl.h \
-  /usr/include/qt/QtCore/qpair.h \
-  /usr/include/qt/QtCore/qpoint.h \
-  /usr/include/qt/QtCore/qprocessordetection.h \
-  /usr/include/qt/QtCore/qrect.h \
-  /usr/include/qt/QtCore/qrefcount.h \
-  /usr/include/qt/QtCore/qregexp.h \
-  /usr/include/qt/QtCore/qscopedpointer.h \
-  /usr/include/qt/QtCore/qshareddata.h \
-  /usr/include/qt/QtCore/qsharedpointer.h \
-  /usr/include/qt/QtCore/qsharedpointer_impl.h \
-  /usr/include/qt/QtCore/qsize.h \
-  /usr/include/qt/QtCore/qstring.h \
-  /usr/include/qt/QtCore/qstringalgorithms.h \
-  /usr/include/qt/QtCore/qstringlist.h \
-  /usr/include/qt/QtCore/qstringliteral.h \
-  /usr/include/qt/QtCore/qstringmatcher.h \
-  /usr/include/qt/QtCore/qstringview.h \
-  /usr/include/qt/QtCore/qsysinfo.h \
-  /usr/include/qt/QtCore/qsystemdetection.h \
-  /usr/include/qt/QtCore/qtcore-config.h \
-  /usr/include/qt/QtCore/qtypeinfo.h \
-  /usr/include/qt/QtCore/qvariant.h \
-  /usr/include/qt/QtCore/qvarlengtharray.h \
-  /usr/include/qt/QtCore/qvector.h \
-  /usr/include/qt/QtCore/qversiontagging.h \
-  /usr/include/qt/QtGui/qbrush.h \
-  /usr/include/qt/QtGui/qcolor.h \
-  /usr/include/qt/QtGui/qcursor.h \
-  /usr/include/qt/QtGui/qfont.h \
-  /usr/include/qt/QtGui/qfontinfo.h \
-  /usr/include/qt/QtGui/qfontmetrics.h \
-  /usr/include/qt/QtGui/qicon.h \
-  /usr/include/qt/QtGui/qimage.h \
-  /usr/include/qt/QtGui/qkeysequence.h \
-  /usr/include/qt/QtGui/qmatrix.h \
-  /usr/include/qt/QtGui/qpaintdevice.h \
-  /usr/include/qt/QtGui/qpalette.h \
-  /usr/include/qt/QtGui/qpixelformat.h \
-  /usr/include/qt/QtGui/qpixmap.h \
-  /usr/include/qt/QtGui/qpolygon.h \
-  /usr/include/qt/QtGui/qregion.h \
-  /usr/include/qt/QtGui/qrgb.h \
-  /usr/include/qt/QtGui/qrgba64.h \
-  /usr/include/qt/QtGui/qtgui-config.h \
-  /usr/include/qt/QtGui/qtguiglobal.h \
-  /usr/include/qt/QtGui/qtransform.h \
-  /usr/include/qt/QtGui/qwindowdefs.h \
-  /usr/include/qt/QtWidgets/QMainWindow \
-  /usr/include/qt/QtWidgets/QMenuBar \
-  /usr/include/qt/QtWidgets/QStatusBar \
-  /usr/include/qt/QtWidgets/QToolBar \
-  /usr/include/qt/QtWidgets/QWidget \
-  /usr/include/qt/QtWidgets/qaction.h \
-  /usr/include/qt/QtWidgets/qactiongroup.h \
-  /usr/include/qt/QtWidgets/qmainwindow.h \
-  /usr/include/qt/QtWidgets/qmenu.h \
-  /usr/include/qt/QtWidgets/qmenubar.h \
+  /usr/include/qt/QtWidgets/qpushbutton.h \
+  /usr/include/qt/QtWidgets/qscrollarea.h \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
   /usr/include/qt/QtWidgets/qstatusbar.h \
   /usr/include/qt/QtWidgets/qtabwidget.h \
@@ -1365,6 +970,7 @@ CMakeFiles/quantumvisualizer.dir/quantumvisualizer_autogen/mocs_compilation.cpp.
   /usr/include/stdc-predef.h
 
 CMakeFiles/quantumvisualizer.dir/src/main.cpp.o: /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/main.cpp \
+  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/controller/Box.h \
   /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1434,6 +1040,7 @@ CMakeFiles/quantumvisualizer.dir/src/main.cpp.o: /home/wrnalp13/Desktop/Programm
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
   /usr/include/bits/xopen_lim.h \
   /usr/include/c++/13.2.1/algorithm \
@@ -1449,6 +1056,8 @@ CMakeFiles/quantumvisualizer.dir/src/main.cpp.o: /home/wrnalp13/Desktop/Programm
   /usr/include/c++/13.2.1/bits/allocator.h \
   /usr/include/c++/13.2.1/bits/atomic_base.h \
   /usr/include/c++/13.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/13.2.1/bits/basic_ios.h \
+  /usr/include/c++/13.2.1/bits/basic_ios.tcc \
   /usr/include/c++/13.2.1/bits/basic_string.h \
   /usr/include/c++/13.2.1/bits/basic_string.tcc \
   /usr/include/c++/13.2.1/bits/char_traits.h \
@@ -1470,9 +1079,12 @@ CMakeFiles/quantumvisualizer.dir/src/main.cpp.o: /home/wrnalp13/Desktop/Programm
   /usr/include/c++/13.2.1/bits/hashtable_policy.h \
   /usr/include/c++/13.2.1/bits/invoke.h \
   /usr/include/c++/13.2.1/bits/ios_base.h \
+  /usr/include/c++/13.2.1/bits/istream.tcc \
   /usr/include/c++/13.2.1/bits/list.tcc \
   /usr/include/c++/13.2.1/bits/locale_classes.h \
   /usr/include/c++/13.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/13.2.1/bits/locale_facets.h \
+  /usr/include/c++/13.2.1/bits/locale_facets.tcc \
   /usr/include/c++/13.2.1/bits/localefwd.h \
   /usr/include/c++/13.2.1/bits/memory_resource.h \
   /usr/include/c++/13.2.1/bits/memoryfwd.h \
@@ -1480,6 +1092,7 @@ CMakeFiles/quantumvisualizer.dir/src/main.cpp.o: /home/wrnalp13/Desktop/Programm
   /usr/include/c++/13.2.1/bits/nested_exception.h \
   /usr/include/c++/13.2.1/bits/new_allocator.h \
   /usr/include/c++/13.2.1/bits/node_handle.h \
+  /usr/include/c++/13.2.1/bits/ostream.tcc \
   /usr/include/c++/13.2.1/bits/ostream_insert.h \
   /usr/include/c++/13.2.1/bits/parse_numbers.h \
   /usr/include/c++/13.2.1/bits/postypes.h \
@@ -1536,6 +1149,7 @@ CMakeFiles/quantumvisualizer.dir/src/main.cpp.o: /home/wrnalp13/Desktop/Programm
   /usr/include/c++/13.2.1/cstdlib \
   /usr/include/c++/13.2.1/ctime \
   /usr/include/c++/13.2.1/cwchar \
+  /usr/include/c++/13.2.1/cwctype \
   /usr/include/c++/13.2.1/debug/assertions.h \
   /usr/include/c++/13.2.1/debug/debug.h \
   /usr/include/c++/13.2.1/exception \
@@ -1548,7 +1162,10 @@ CMakeFiles/quantumvisualizer.dir/src/main.cpp.o: /home/wrnalp13/Desktop/Programm
   /usr/include/c++/13.2.1/ext/type_traits.h \
   /usr/include/c++/13.2.1/functional \
   /usr/include/c++/13.2.1/initializer_list \
+  /usr/include/c++/13.2.1/ios \
   /usr/include/c++/13.2.1/iosfwd \
+  /usr/include/c++/13.2.1/iostream \
+  /usr/include/c++/13.2.1/istream \
   /usr/include/c++/13.2.1/iterator \
   /usr/include/c++/13.2.1/limits \
   /usr/include/c++/13.2.1/list \
@@ -1556,6 +1173,7 @@ CMakeFiles/quantumvisualizer.dir/src/main.cpp.o: /home/wrnalp13/Desktop/Programm
   /usr/include/c++/13.2.1/memory \
   /usr/include/c++/13.2.1/new \
   /usr/include/c++/13.2.1/numeric \
+  /usr/include/c++/13.2.1/ostream \
   /usr/include/c++/13.2.1/pstl/execution_defs.h \
   /usr/include/c++/13.2.1/pstl/glue_algorithm_defs.h \
   /usr/include/c++/13.2.1/pstl/glue_memory_defs.h \
@@ -1580,6 +1198,8 @@ CMakeFiles/quantumvisualizer.dir/src/main.cpp.o: /home/wrnalp13/Desktop/Programm
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
@@ -1659,6 +1279,9 @@ CMakeFiles/quantumvisualizer.dir/src/main.cpp.o: /home/wrnalp13/Desktop/Programm
   /usr/include/qt/QtCore/qvarlengtharray.h \
   /usr/include/qt/QtCore/qvector.h \
   /usr/include/qt/QtCore/qversiontagging.h \
+  /usr/include/qt/QtGui/QBrush \
+  /usr/include/qt/QtGui/QColor \
+  /usr/include/qt/QtGui/QPen \
   /usr/include/qt/QtGui/qbrush.h \
   /usr/include/qt/QtGui/qcolor.h \
   /usr/include/qt/QtGui/qcursor.h \
@@ -1672,29 +1295,51 @@ CMakeFiles/quantumvisualizer.dir/src/main.cpp.o: /home/wrnalp13/Desktop/Programm
   /usr/include/qt/QtGui/qkeysequence.h \
   /usr/include/qt/QtGui/qmatrix.h \
   /usr/include/qt/QtGui/qpaintdevice.h \
+  /usr/include/qt/QtGui/qpainter.h \
+  /usr/include/qt/QtGui/qpainterpath.h \
   /usr/include/qt/QtGui/qpalette.h \
+  /usr/include/qt/QtGui/qpen.h \
   /usr/include/qt/QtGui/qpixelformat.h \
   /usr/include/qt/QtGui/qpixmap.h \
   /usr/include/qt/QtGui/qpolygon.h \
   /usr/include/qt/QtGui/qregion.h \
   /usr/include/qt/QtGui/qrgb.h \
   /usr/include/qt/QtGui/qrgba64.h \
+  /usr/include/qt/QtGui/qtextoption.h \
   /usr/include/qt/QtGui/qtgui-config.h \
   /usr/include/qt/QtGui/qtguiglobal.h \
   /usr/include/qt/QtGui/qtransform.h \
   /usr/include/qt/QtGui/qwindowdefs.h \
   /usr/include/qt/QtWidgets/QApplication \
+  /usr/include/qt/QtWidgets/QGraphicsItem \
+  /usr/include/qt/QtWidgets/QGraphicsRectItem \
+  /usr/include/qt/QtWidgets/QGraphicsScene \
+  /usr/include/qt/QtWidgets/QGraphicsView \
   /usr/include/qt/QtWidgets/QMainWindow \
   /usr/include/qt/QtWidgets/QMenuBar \
+  /usr/include/qt/QtWidgets/QPushButton \
   /usr/include/qt/QtWidgets/QStatusBar \
   /usr/include/qt/QtWidgets/QToolBar \
+  /usr/include/qt/QtWidgets/QVBoxLayout \
   /usr/include/qt/QtWidgets/QWidget \
+  /usr/include/qt/QtWidgets/qabstractbutton.h \
+  /usr/include/qt/QtWidgets/qabstractscrollarea.h \
   /usr/include/qt/QtWidgets/qaction.h \
   /usr/include/qt/QtWidgets/qactiongroup.h \
   /usr/include/qt/QtWidgets/qapplication.h \
+  /usr/include/qt/QtWidgets/qboxlayout.h \
+  /usr/include/qt/QtWidgets/qframe.h \
+  /usr/include/qt/QtWidgets/qgraphicsitem.h \
+  /usr/include/qt/QtWidgets/qgraphicsscene.h \
+  /usr/include/qt/QtWidgets/qgraphicsview.h \
+  /usr/include/qt/QtWidgets/qgridlayout.h \
+  /usr/include/qt/QtWidgets/qlayout.h \
+  /usr/include/qt/QtWidgets/qlayoutitem.h \
   /usr/include/qt/QtWidgets/qmainwindow.h \
   /usr/include/qt/QtWidgets/qmenu.h \
   /usr/include/qt/QtWidgets/qmenubar.h \
+  /usr/include/qt/QtWidgets/qpushbutton.h \
+  /usr/include/qt/QtWidgets/qscrollarea.h \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
   /usr/include/qt/QtWidgets/qstatusbar.h \
   /usr/include/qt/QtWidgets/qtabwidget.h \
@@ -1715,6 +1360,7 @@ CMakeFiles/quantumvisualizer.dir/src/main.cpp.o: /home/wrnalp13/Desktop/Programm
   /usr/include/sys/types.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
+  /usr/include/wctype.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h \
@@ -1729,6 +1375,7 @@ CMakeFiles/quantumvisualizer.dir/src/model/Hamiltonian.cpp.o: /home/wrnalp13/Des
   /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/modules/lambda-lanczos/include/lambda_lanczos/lambda_lanczos_util.hpp \
   /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/modules/lambda-lanczos/include/lambda_lanczos/util/common.hpp \
   /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/modules/lambda-lanczos/include/lambda_lanczos/util/linear_algebra.hpp \
+  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/controller/Box.h \
   /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Hamiltonian.h \
   /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Potential.h \
   /usr/include/alloca.h \
@@ -2046,6 +1693,7 @@ CMakeFiles/quantumvisualizer.dir/src/model/Hamiltonian.cpp.o: /home/wrnalp13/Des
   /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h
 
 CMakeFiles/quantumvisualizer.dir/src/model/Potential.cpp.o: /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Potential.cpp \
+  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/controller/Box.h \
   /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Potential.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -2289,6 +1937,10 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: /home/wrnalp1
   /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.h \
   quantumvisualizer_autogen/include/moc_quantumvisualizer.cpp \
   quantumvisualizer_autogen/include/ui_quantumvisualizer.h \
+  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/controller/Box.h \
+  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/controller/Box.h \
+  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Hamiltonian.h \
+  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Potential.h \
   /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -2358,6 +2010,7 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: /home/wrnalp1
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
   /usr/include/bits/xopen_lim.h \
   /usr/include/c++/13.2.1/algorithm \
@@ -2373,6 +2026,8 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: /home/wrnalp1
   /usr/include/c++/13.2.1/bits/allocator.h \
   /usr/include/c++/13.2.1/bits/atomic_base.h \
   /usr/include/c++/13.2.1/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/13.2.1/bits/basic_ios.h \
+  /usr/include/c++/13.2.1/bits/basic_ios.tcc \
   /usr/include/c++/13.2.1/bits/basic_string.h \
   /usr/include/c++/13.2.1/bits/basic_string.tcc \
   /usr/include/c++/13.2.1/bits/char_traits.h \
@@ -2394,9 +2049,12 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: /home/wrnalp1
   /usr/include/c++/13.2.1/bits/hashtable_policy.h \
   /usr/include/c++/13.2.1/bits/invoke.h \
   /usr/include/c++/13.2.1/bits/ios_base.h \
+  /usr/include/c++/13.2.1/bits/istream.tcc \
   /usr/include/c++/13.2.1/bits/list.tcc \
   /usr/include/c++/13.2.1/bits/locale_classes.h \
   /usr/include/c++/13.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/13.2.1/bits/locale_facets.h \
+  /usr/include/c++/13.2.1/bits/locale_facets.tcc \
   /usr/include/c++/13.2.1/bits/localefwd.h \
   /usr/include/c++/13.2.1/bits/memory_resource.h \
   /usr/include/c++/13.2.1/bits/memoryfwd.h \
@@ -2404,6 +2062,7 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: /home/wrnalp1
   /usr/include/c++/13.2.1/bits/nested_exception.h \
   /usr/include/c++/13.2.1/bits/new_allocator.h \
   /usr/include/c++/13.2.1/bits/node_handle.h \
+  /usr/include/c++/13.2.1/bits/ostream.tcc \
   /usr/include/c++/13.2.1/bits/ostream_insert.h \
   /usr/include/c++/13.2.1/bits/parse_numbers.h \
   /usr/include/c++/13.2.1/bits/postypes.h \
@@ -2460,6 +2119,7 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: /home/wrnalp1
   /usr/include/c++/13.2.1/cstdlib \
   /usr/include/c++/13.2.1/ctime \
   /usr/include/c++/13.2.1/cwchar \
+  /usr/include/c++/13.2.1/cwctype \
   /usr/include/c++/13.2.1/debug/assertions.h \
   /usr/include/c++/13.2.1/debug/debug.h \
   /usr/include/c++/13.2.1/exception \
@@ -2472,7 +2132,10 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: /home/wrnalp1
   /usr/include/c++/13.2.1/ext/type_traits.h \
   /usr/include/c++/13.2.1/functional \
   /usr/include/c++/13.2.1/initializer_list \
+  /usr/include/c++/13.2.1/ios \
   /usr/include/c++/13.2.1/iosfwd \
+  /usr/include/c++/13.2.1/iostream \
+  /usr/include/c++/13.2.1/istream \
   /usr/include/c++/13.2.1/iterator \
   /usr/include/c++/13.2.1/limits \
   /usr/include/c++/13.2.1/list \
@@ -2480,6 +2143,7 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: /home/wrnalp1
   /usr/include/c++/13.2.1/memory \
   /usr/include/c++/13.2.1/new \
   /usr/include/c++/13.2.1/numeric \
+  /usr/include/c++/13.2.1/ostream \
   /usr/include/c++/13.2.1/pstl/execution_defs.h \
   /usr/include/c++/13.2.1/pstl/glue_algorithm_defs.h \
   /usr/include/c++/13.2.1/pstl/glue_memory_defs.h \
@@ -2504,6 +2168,8 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: /home/wrnalp1
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
@@ -2515,6 +2181,57 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: /home/wrnalp1
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/gsl/gsl_blas_types.h \
+  /usr/include/gsl/gsl_block_char.h \
+  /usr/include/gsl/gsl_block_complex_double.h \
+  /usr/include/gsl/gsl_block_complex_float.h \
+  /usr/include/gsl/gsl_block_complex_long_double.h \
+  /usr/include/gsl/gsl_block_double.h \
+  /usr/include/gsl/gsl_block_float.h \
+  /usr/include/gsl/gsl_block_int.h \
+  /usr/include/gsl/gsl_block_long.h \
+  /usr/include/gsl/gsl_block_long_double.h \
+  /usr/include/gsl/gsl_block_short.h \
+  /usr/include/gsl/gsl_block_uchar.h \
+  /usr/include/gsl/gsl_block_uint.h \
+  /usr/include/gsl/gsl_block_ulong.h \
+  /usr/include/gsl/gsl_block_ushort.h \
+  /usr/include/gsl/gsl_cblas.h \
+  /usr/include/gsl/gsl_check_range.h \
+  /usr/include/gsl/gsl_complex.h \
+  /usr/include/gsl/gsl_errno.h \
+  /usr/include/gsl/gsl_inline.h \
+  /usr/include/gsl/gsl_matrix.h \
+  /usr/include/gsl/gsl_matrix_char.h \
+  /usr/include/gsl/gsl_matrix_complex_double.h \
+  /usr/include/gsl/gsl_matrix_complex_float.h \
+  /usr/include/gsl/gsl_matrix_complex_long_double.h \
+  /usr/include/gsl/gsl_matrix_double.h \
+  /usr/include/gsl/gsl_matrix_float.h \
+  /usr/include/gsl/gsl_matrix_int.h \
+  /usr/include/gsl/gsl_matrix_long.h \
+  /usr/include/gsl/gsl_matrix_long_double.h \
+  /usr/include/gsl/gsl_matrix_short.h \
+  /usr/include/gsl/gsl_matrix_uchar.h \
+  /usr/include/gsl/gsl_matrix_uint.h \
+  /usr/include/gsl/gsl_matrix_ulong.h \
+  /usr/include/gsl/gsl_matrix_ushort.h \
+  /usr/include/gsl/gsl_types.h \
+  /usr/include/gsl/gsl_vector_char.h \
+  /usr/include/gsl/gsl_vector_complex.h \
+  /usr/include/gsl/gsl_vector_complex_double.h \
+  /usr/include/gsl/gsl_vector_complex_float.h \
+  /usr/include/gsl/gsl_vector_complex_long_double.h \
+  /usr/include/gsl/gsl_vector_double.h \
+  /usr/include/gsl/gsl_vector_float.h \
+  /usr/include/gsl/gsl_vector_int.h \
+  /usr/include/gsl/gsl_vector_long.h \
+  /usr/include/gsl/gsl_vector_long_double.h \
+  /usr/include/gsl/gsl_vector_short.h \
+  /usr/include/gsl/gsl_vector_uchar.h \
+  /usr/include/gsl/gsl_vector_uint.h \
+  /usr/include/gsl/gsl_vector_ulong.h \
+  /usr/include/gsl/gsl_vector_ushort.h \
   /usr/include/limits.h \
   /usr/include/linux/errno.h \
   /usr/include/linux/limits.h \
@@ -2585,6 +2302,9 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: /home/wrnalp1
   /usr/include/qt/QtCore/qvarlengtharray.h \
   /usr/include/qt/QtCore/qvector.h \
   /usr/include/qt/QtCore/qversiontagging.h \
+  /usr/include/qt/QtGui/QBrush \
+  /usr/include/qt/QtGui/QColor \
+  /usr/include/qt/QtGui/QPen \
   /usr/include/qt/QtGui/qbrush.h \
   /usr/include/qt/QtGui/qcolor.h \
   /usr/include/qt/QtGui/qcursor.h \
@@ -2599,6 +2319,7 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: /home/wrnalp1
   /usr/include/qt/QtGui/qmatrix.h \
   /usr/include/qt/QtGui/qpaintdevice.h \
   /usr/include/qt/QtGui/qpainter.h \
+  /usr/include/qt/QtGui/qpainterpath.h \
   /usr/include/qt/QtGui/qpalette.h \
   /usr/include/qt/QtGui/qpen.h \
   /usr/include/qt/QtGui/qpixelformat.h \
@@ -2616,6 +2337,9 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: /home/wrnalp1
   /usr/include/qt/QtGui/qtransform.h \
   /usr/include/qt/QtGui/qwindowdefs.h \
   /usr/include/qt/QtWidgets/QApplication \
+  /usr/include/qt/QtWidgets/QGraphicsItem \
+  /usr/include/qt/QtWidgets/QGraphicsRectItem \
+  /usr/include/qt/QtWidgets/QGraphicsScene \
   /usr/include/qt/QtWidgets/QGraphicsView \
   /usr/include/qt/QtWidgets/QHBoxLayout \
   /usr/include/qt/QtWidgets/QLabel \
@@ -2635,6 +2359,7 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: /home/wrnalp1
   /usr/include/qt/QtWidgets/qapplication.h \
   /usr/include/qt/QtWidgets/qboxlayout.h \
   /usr/include/qt/QtWidgets/qframe.h \
+  /usr/include/qt/QtWidgets/qgraphicsitem.h \
   /usr/include/qt/QtWidgets/qgraphicsscene.h \
   /usr/include/qt/QtWidgets/qgraphicsview.h \
   /usr/include/qt/QtWidgets/qgridlayout.h \
@@ -2667,6 +2392,7 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: /home/wrnalp1
   /usr/include/sys/types.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
+  /usr/include/wctype.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h \
@@ -2674,31 +2400,13 @@ CMakeFiles/quantumvisualizer.dir/src/view/quantumvisualizer.cpp.o: /home/wrnalp1
   /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/syslimits.h
 
 
-/usr/include/qt/QtWidgets/qscrollarea.h:
-
-/usr/include/qt/QtWidgets/qpushbutton.h:
-
-/usr/include/qt/QtWidgets/qlayoutitem.h:
-
 /usr/include/qt/QtWidgets/qlabel.h:
 
-/usr/include/qt/QtWidgets/qgraphicsscene.h:
-
-/usr/include/qt/QtWidgets/qabstractscrollarea.h:
-
-/usr/include/qt/QtWidgets/qabstractbutton.h:
-
 /usr/include/qt/QtWidgets/QSpacerItem:
-
-/usr/include/qt/QtWidgets/QPushButton:
 
 /usr/include/qt/QtGui/qtextformat.h:
 
 /usr/include/qt/QtGui/qtextdocument.h:
-
-/usr/include/qt/QtWidgets/qgraphicsview.h:
-
-/usr/include/qt/QtGui/qpen.h:
 
 quantumvisualizer_autogen/include/ui_quantumvisualizer.h:
 
@@ -2746,13 +2454,45 @@ quantumvisualizer_autogen/include/moc_quantumvisualizer.cpp:
 
 /usr/include/gsl/gsl_check_range.h:
 
-/usr/include/qt/QtWidgets/QGraphicsView:
-
-/usr/include/gsl/gsl_cblas.h:
-
 /usr/include/gsl/gsl_block_ushort.h:
 
-/usr/include/limits.h:
+/usr/include/gsl/gsl_block_uchar.h:
+
+/usr/include/gsl/gsl_block_short.h:
+
+/usr/include/gsl/gsl_block_long_double.h:
+
+/usr/include/qt/QtWidgets/QLabel:
+
+/usr/include/gsl/gsl_block_long.h:
+
+/usr/include/gsl/gsl_block_int.h:
+
+/usr/include/gsl/gsl_block_float.h:
+
+/usr/include/gsl/gsl_block_complex_long_double.h:
+
+/usr/include/gsl/gsl_block_complex_double.h:
+
+/usr/include/gsl/gsl_block_char.h:
+
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/opt_random.h:
+
+/usr/include/c++/13.2.1/tr1/riemann_zeta.tcc:
+
+/usr/include/c++/13.2.1/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/13.2.1/tr1/legendre_function.tcc:
+
+/usr/include/c++/13.2.1/tr1/hypergeometric.tcc:
+
+/usr/include/c++/13.2.1/tr1/gamma.tcc:
+
+/usr/include/c++/13.2.1/tr1/exp_integral.tcc:
+
+/usr/include/c++/13.2.1/tr1/beta_function.tcc:
+
+/usr/include/c++/13.2.1/tr1/bessel_function.tcc:
 
 /usr/include/bits/getopt_posix.h:
 
@@ -2798,6 +2538,14 @@ quantumvisualizer_autogen/include/moc_quantumvisualizer.cpp:
 
 /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.cpp:
 
+/usr/include/c++/13.2.1/iostream:
+
+/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Potential.cpp:
+
+/usr/include/c++/13.2.1/optional:
+
+/usr/include/bits/types/mbstate_t.h:
+
 /usr/include/c++/13.2.1/ios:
 
 /usr/include/c++/13.2.1/initializer_list:
@@ -2807,8 +2555,6 @@ quantumvisualizer_autogen/include/moc_quantumvisualizer.cpp:
 /usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake:
 
 /usr/include/c++/13.2.1/ext/atomicity.h:
-
-/usr/include/c++/13.2.1/tr1/beta_function.tcc:
 
 /usr/include/c++/13.2.1/exception:
 
@@ -2830,7 +2576,13 @@ quantumvisualizer_autogen/include/moc_quantumvisualizer.cpp:
 
 /usr/include/c++/13.2.1/bits/stringfwd.h:
 
+/usr/include/qt/QtWidgets/QGraphicsScene:
+
 /usr/include/c++/13.2.1/bits/stl_tree.h:
+
+/usr/include/gsl/gsl_block_uint.h:
+
+/usr/include/bits/uintn-identity.h:
 
 /usr/include/c++/13.2.1/bits/charconv.h:
 
@@ -2838,23 +2590,15 @@ quantumvisualizer_autogen/include/moc_quantumvisualizer.cpp:
 
 /usr/include/c++/13.2.1/pstl/glue_memory_defs.h:
 
-/usr/include/c++/13.2.1/bits/stl_heap.h:
-
 /usr/include/c++/13.2.1/bits/stl_function.h:
 
 /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Potential.h:
-
-/usr/include/gsl/gsl_block_int.h:
 
 /usr/include/c++/13.2.1/bits/stream_iterator.h:
 
 /usr/include/qt/QtCore/qurl.h:
 
 /usr/include/c++/13.2.1/bits/move_only_function.h:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/gsl/gsl_block_uint.h:
 
 /usr/include/c++/13.2.1/cstddef:
 
@@ -2878,9 +2622,9 @@ quantumvisualizer_autogen/include/moc_quantumvisualizer.cpp:
 
 /usr/include/c++/13.2.1/bits/shared_ptr_base.h:
 
-/usr/include/qt/QtWidgets/qlayout.h:
+/usr/include/gsl/gsl_blas_types.h:
 
-/usr/include/c++/13.2.1/bits/requires_hosted.h:
+/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake:
 
 /usr/include/qt/QtCore/qalgorithms.h:
 
@@ -2888,19 +2632,11 @@ quantumvisualizer_autogen/include/moc_quantumvisualizer.cpp:
 
 /usr/include/c++/13.2.1/bits/ranges_uninitialized.h:
 
-/usr/include/qt/QtWidgets/QVBoxLayout:
-
-/usr/include/c++/13.2.1/bits/ranges_algobase.h:
-
 /usr/include/bits/libm-simd-decl-stubs.h:
 
 /usr/include/qt/QtCore/qvariant.h:
 
 /usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake:
-
-/usr/include/gsl/gsl_block_short.h:
-
-/usr/include/gnu/stubs-64.h:
 
 /usr/include/c++/13.2.1/bits/stl_iterator_base_types.h:
 
@@ -2919,10 +2655,6 @@ quantumvisualizer_autogen/include/moc_quantumvisualizer.cpp:
 /usr/share/cmake/Modules/Platform/Linux.cmake:
 
 /usr/include/c++/13.2.1/cassert:
-
-/usr/include/bits/getopt_core.h:
-
-/usr/include/gsl/gsl_block_complex_long_double.h:
 
 /usr/include/bits/types/time_t.h:
 
@@ -2946,14 +2678,6 @@ quantumvisualizer_autogen/include/moc_quantumvisualizer.cpp:
 
 /usr/include/c++/13.2.1/bits/hashtable.h:
 
-/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Potential.cpp:
-
-/usr/include/c++/13.2.1/optional:
-
-/usr/include/bits/types/mbstate_t.h:
-
-/usr/include/c++/13.2.1/iostream:
-
 /usr/include/bits/select.h:
 
 /usr/include/c++/13.2.1/bits/node_handle.h:
@@ -2974,23 +2698,17 @@ quantumvisualizer_autogen/include/moc_quantumvisualizer.cpp:
 
 /usr/include/c++/13.2.1/bits/parse_numbers.h:
 
-/usr/include/c++/13.2.1/debug/assertions.h:
-
-/usr/include/qt/QtWidgets/qframe.h:
-
-CMakeFiles/3.28.3/CMakeSystem.cmake:
-
 /usr/include/c++/13.2.1/bits/string_view.tcc:
 
 /usr/include/c++/13.2.1/bits/stl_raw_storage_iter.h:
 
+/usr/include/c++/13.2.1/tr1/poly_laguerre.tcc:
+
+/usr/include/bits/pthreadtypes.h:
+
 /usr/include/c++/13.2.1/bits/range_access.h:
 
 /usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/qt/QtWidgets/qgridlayout.h:
-
-/usr/include/qt/QtCore/qrect.h:
 
 /usr/include/gsl/gsl_matrix_double.h:
 
@@ -3012,17 +2730,17 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/include/bits/thread-shared-types.h:
 
+/usr/include/bits/getopt_core.h:
+
 /usr/include/bits/floatn.h:
 
 /usr/include/c++/13.2.1/bits/stl_algo.h:
 
 /usr/include/c++/13.2.1/bits/stl_tempbuf.h:
 
-/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.ui:
+/usr/include/gsl/gsl_block_complex_float.h:
 
-/usr/include/c++/13.2.1/system_error:
-
-/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Hamiltonian.h:
+/usr/include/bits/stdlib-float.h:
 
 /usr/include/bits/time64.h:
 
@@ -3048,20 +2766,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Hamiltonian.cpp:
 
-/usr/include/c++/13.2.1/bits/atomic_base.h:
-
-/usr/include/asm/unistd.h:
-
-/usr/include/qt/QtWidgets/qboxlayout.h:
-
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
-
-/usr/include/c++/13.2.1/bits/functional_hash.h:
-
-/usr/include/qt/QtWidgets/QLabel:
-
-/usr/include/gsl/gsl_block_long.h:
-
 /usr/include/bits/posix2_lim.h:
 
 /usr/include/c++/13.2.1/bits/basic_string.tcc:
@@ -3074,9 +2778,9 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/include/c++/13.2.1/random:
 
-/usr/include/bits/types/struct_FILE.h:
+/usr/include/asm/unistd.h:
 
-/usr/include/c++/13.2.1/sstream:
+/usr/include/c++/13.2.1/bits/atomic_base.h:
 
 /usr/include/c++/13.2.1/bits/cxxabi_init_exception.h:
 
@@ -3090,11 +2794,27 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/include/alloca.h:
 
+/usr/include/c++/13.2.1/bits/atomic_wait.h:
+
+/usr/include/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/bits/waitstatus.h:
+
 /usr/include/c++/13.2.1/ratio:
+
+/usr/include/gsl/gsl_block_double.h:
+
+/usr/include/bits/waitflags.h:
 
 /usr/include/c++/13.2.1/bits/streambuf_iterator.h:
 
 /usr/include/c++/13.2.1/pstl/glue_algorithm_defs.h:
+
+/usr/include/gsl/gsl_cblas.h:
+
+/usr/include/qt/QtWidgets/QGraphicsView:
 
 /usr/include/c++/13.2.1/bits/c++0x_warning.h:
 
@@ -3104,33 +2824,55 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake:
 
-/usr/include/bits/environments.h:
-
-/usr/include/qt/QtCore/qcompilerdetection.h:
-
-/usr/include/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/bits/wchar.h:
-
-/usr/include/bits/waitstatus.h:
-
 /usr/include/c++/13.2.1/bits/align.h:
 
 /usr/include/gsl/gsl_vector_uint.h:
 
 CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
+/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/Hamiltonian.h:
+
 quantumvisualizer_autogen/moc_predefs.h:
 
 /usr/include/c++/13.2.1/typeinfo:
+
+/usr/include/c++/13.2.1/istream:
+
+/usr/include/qt/QtCore/qatomic.h:
+
+/usr/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake:
+
+/usr/include/c++/13.2.1/bits/random.h:
 
 /usr/include/bits/types/error_t.h:
 
 /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/CMakeLists.txt:
 
+/usr/include/qt/QtCore/qrect.h:
+
+/usr/include/qt/QtWidgets/qgridlayout.h:
+
 /usr/include/bits/xopen_lim.h:
 
 /usr/include/qt/QtCore/qsharedpointer.h:
+
+/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.ui:
+
+/usr/include/c++/13.2.1/system_error:
+
+/usr/include/qt/QtWidgets/qboxlayout.h:
+
+/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
+
+/usr/include/qt/QtCore/qcompilerdetection.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/c++/13.2.1/sstream:
+
+/usr/include/bits/types/struct_FILE.h:
+
+/usr/include/c++/13.2.1/bits/functional_hash.h:
 
 /usr/include/qt/QtCore/QVariant:
 
@@ -3150,7 +2892,53 @@ quantumvisualizer_autogen/moc_predefs.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h:
 
+/usr/include/c++/13.2.1/bits/mofunc_impl.h:
+
+/usr/include/gsl/gsl_vector_long.h:
+
+/usr/include/qt/QtCore/qmetatype.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake:
+
+/usr/include/c++/13.2.1/chrono:
+
+/usr/include/bits/timex.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/qt/QtCore/qdatastream.h:
+
+/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake:
+
+/usr/include/c++/13.2.1/concepts:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/usr/include/qt/QtGui/qtextcursor.h:
+
+/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake:
+
+/usr/include/c++/13.2.1/ext/aligned_buffer.h:
+
+/usr/include/c++/13.2.1/string_view:
+
+/usr/include/qt/QtWidgets/QApplication:
+
+/usr/include/c++/13.2.1/bits/sstream.tcc:
+
+/usr/include/qt/QtWidgets/qtextedit.h:
+
+/usr/include/gsl/gsl_matrix_complex_long_double.h:
+
+/usr/include/c++/13.2.1/bits/stl_list.h:
+
 /usr/include/c++/13.2.1/ext/alloc_traits.h:
+
+/usr/include/qt/QtWidgets/QGraphicsRectItem:
 
 /usr/include/bits/struct_mutex.h:
 
@@ -3181,50 +2969,6 @@ quantumvisualizer_autogen/moc_predefs.h:
 /usr/include/c++/13.2.1/bits/vector.tcc:
 
 /usr/include/c++/13.2.1/bits/allocated_ptr.h:
-
-/usr/include/c++/13.2.1/bits/mofunc_impl.h:
-
-/usr/include/gsl/gsl_vector_long.h:
-
-/usr/include/qt/QtCore/qmetatype.h:
-
-/usr/include/bits/local_lim.h:
-
-/usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake:
-
-/usr/include/c++/13.2.1/chrono:
-
-/usr/include/qt/QtCore/qdatastream.h:
-
-/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake:
-
-/usr/include/c++/13.2.1/concepts:
-
-/usr/include/bits/posix_opt.h:
-
-/usr/include/bits/atomic_wide_counter.h:
-
-/usr/include/qt/QtGui/qtextcursor.h:
-
-/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake:
-
-/usr/include/c++/13.2.1/ext/aligned_buffer.h:
-
-/usr/include/c++/13.2.1/string_view:
-
-/usr/include/qt/QtWidgets/QApplication:
-
-/usr/include/c++/13.2.1/bits/sstream.tcc:
-
-/usr/include/qt/QtWidgets/qtextedit.h:
-
-/usr/include/gsl/gsl_matrix_complex_long_double.h:
-
-/usr/include/c++/13.2.1/bits/stl_list.h:
-
-/usr/include/bits/timex.h:
-
-/usr/include/bits/errno.h:
 
 /usr/include/c++/13.2.1/bits/locale_facets.h:
 
@@ -3276,6 +3020,10 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /usr/include/bits/types/struct_itimerspec.h:
 
+/usr/include/c++/13.2.1/debug/assertions.h:
+
+/home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/controller/Box.h:
+
 /usr/include/bits/types/struct_timeval.h:
 
 /usr/include/c++/13.2.1/bits/hash_bytes.h:
@@ -3304,6 +3052,8 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /usr/include/bits/types/wint_t.h:
 
+/usr/include/gnu/stubs-64.h:
+
 /usr/include/c++/13.2.1/bits/erase_if.h:
 
 /usr/include/c++/13.2.1/bits/stl_iterator_base_funcs.h:
@@ -3318,13 +3068,17 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /usr/include/bits/byteswap.h:
 
+/usr/include/c++/13.2.1/tr1/special_function_util.h:
+
+/usr/include/bits/stdint-intn.h:
+
+/usr/include/c++/13.2.1/list:
+
+/usr/include/bits/wctype-wchar.h:
+
 /usr/include/c++/13.2.1/array:
 
 /usr/include/c++/13.2.1/bits/basic_ios.h:
-
-/usr/include/qt/QtGui/qtextoption.h:
-
-/usr/include/qt/QtWidgets/qmainwindow.h:
 
 /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
 
@@ -3364,19 +3118,13 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /usr/include/bits/long-double.h:
 
-/usr/include/gsl/gsl_block_uchar.h:
-
 /usr/include/bits/types/__fpos_t.h:
-
-/usr/include/c++/13.2.1/bits/atomic_wait.h:
 
 /usr/include/c++/13.2.1/bits/ranges_algo.h:
 
 /usr/include/c++/13.2.1/type_traits:
 
 /usr/include/bits/types/struct_tm.h:
-
-/usr/include/gsl/gsl_block_long_double.h:
 
 /usr/include/c++/13.2.1/bits/basic_ios.tcc:
 
@@ -3408,19 +3156,13 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:
 
+/usr/include/limits.h:
+
 /usr/include/gsl/gsl_matrix_ulong.h:
 
 /usr/include/locale.h:
 
 /usr/include/qt/QtCore/qarraydata.h:
-
-/usr/include/qt/QtCore/qatomic.h:
-
-/usr/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake:
-
-/usr/include/c++/13.2.1/bits/random.h:
-
-/usr/include/c++/13.2.1/istream:
 
 /usr/include/qt/QtCore/qatomic_cxx11.h:
 
@@ -3484,6 +3226,8 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /usr/include/qt/QtCore/qrefcount.h:
 
+/usr/include/qt/QtWidgets/qlayoutitem.h:
+
 /usr/include/bits/confname.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h:
@@ -3497,6 +3241,10 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 /usr/include/qt/QtCore/qscopedpointer.h:
 
 /usr/share/cmake/Modules/CMakeCInformation.cmake:
+
+/usr/include/c++/13.2.1/tr1/poly_hermite.tcc:
+
+/usr/include/qt/QtCore/qshareddata.h:
 
 /usr/include/qt/QtCore/qsize.h:
 
@@ -3542,6 +3290,12 @@ quantumvisualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/qt/QtWidgets/QMainWindow:
 
+/usr/include/qt/QtGui/QBrush:
+
+/usr/include/c++/13.2.1/bits/stl_heap.h:
+
+/usr/include/qt/QtGui/QPen:
+
 /usr/include/qt/QtGui/qfont.h:
 
 /usr/include/pthread.h:
@@ -3564,13 +3318,19 @@ quantumvisualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/qt/QtGui/qmatrix.h:
 
-/usr/include/c++/13.2.1/ext/concurrence.h:
+CMakeFiles/3.28.3/CMakeSystem.cmake:
+
+/usr/include/qt/QtWidgets/qframe.h:
 
 /usr/include/c++/13.2.1/bits/ios_base.h:
+
+/usr/include/c++/13.2.1/ext/concurrence.h:
 
 /usr/include/qt/QtCore/qbytearraylist.h:
 
 /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/modules/lambda-lanczos/include/lambda_lanczos/lambda_lanczos_tridiagonal_impl.hpp:
+
+/usr/include/qt/QtGui/qpainterpath.h:
 
 /usr/include/qt/QtGui/qpixelformat.h:
 
@@ -3586,17 +3346,53 @@ quantumvisualizer_autogen/mocs_compilation.cpp:
 
 /usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake:
 
+/usr/include/qt/QtWidgets/qmainwindow.h:
+
+/usr/include/qt/QtGui/qtextoption.h:
+
 /usr/include/qt/QtWidgets/QHBoxLayout:
 
 /usr/include/qt/QtGui/qtguiglobal.h:
 
+/usr/include/qt/QtWidgets/QPushButton:
+
 /usr/include/qt/QtWidgets/QStatusBar:
+
+/usr/include/c++/13.2.1/bits/ranges_algobase.h:
+
+/usr/include/qt/QtWidgets/QVBoxLayout:
+
+/usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake:
+
+/usr/include/qt/QtWidgets/qabstractbutton.h:
+
+/usr/include/qt/QtWidgets/qabstractscrollarea.h:
 
 /usr/include/c++/13.2.1/bits/stl_map.h:
 
 /usr/include/qt/QtWidgets/qactiongroup.h:
 
 /usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake:
+
+/usr/include/qt/QtWidgets/qgraphicsitem.h:
+
+/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:
+
+/usr/include/qt/QtWidgets/qgraphicsscene.h:
+
+/usr/include/qt/QtGui/qpen.h:
+
+/usr/include/qt/QtWidgets/qgraphicsview.h:
+
+/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:
+
+/usr/include/c++/13.2.1/bits/requires_hosted.h:
+
+/usr/include/qt/QtWidgets/qlayout.h:
+
+/usr/include/qt/QtWidgets/qpushbutton.h:
+
+/usr/include/qt/QtWidgets/qscrollarea.h:
 
 /usr/include/qt/QtWidgets/qsizepolicy.h:
 
@@ -3650,11 +3446,7 @@ quantumvisualizer_autogen/mocs_compilation.cpp:
 
 /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/modules/lambda-lanczos/include/lambda_lanczos/lambda_lanczos.hpp:
 
-/usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake:
-
 /usr/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake:
-
-/usr/include/gsl/gsl_block_char.h:
 
 /usr/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake:
 
@@ -3662,11 +3454,7 @@ quantumvisualizer_autogen/mocs_compilation.cpp:
 
 /usr/lib/cmake/Qt5Core/Qt5CoreMacros.cmake:
 
-/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:
-
 /usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake:
-
-/usr/include/c++/13.2.1/tr1/gamma.tcc:
 
 /usr/include/qt/QtWidgets/QMenuBar:
 
@@ -3700,6 +3488,8 @@ quantumvisualizer_autogen/mocs_compilation.cpp:
 
 /usr/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake:
 
+/usr/include/qt/QtGui/QColor:
+
 /usr/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake:
 
 /usr/share/cmake/Modules/FindPkgConfig.cmake:
@@ -3715,10 +3505,6 @@ quantumvisualizer_autogen/mocs_compilation.cpp:
 /usr/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake:
 
 /usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake:
-
-/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake:
-
-/usr/include/gsl/gsl_blas_types.h:
 
 /usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake:
 
@@ -3741,8 +3527,6 @@ quantumvisualizer_autogen/mocs_compilation.cpp:
 /usr/share/cmake/Modules/CMakeCXXInformation.cmake:
 
 /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake:
-
-/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:
 
 /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
 
@@ -3830,6 +3614,8 @@ quantumvisualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/qt/QtGui/qregion.h:
 
+/usr/include/qt/QtWidgets/QGraphicsItem:
+
 /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/modules/lambda-lanczos/include/lambda_lanczos/util/linear_algebra.hpp:
 
 /usr/include/gsl/gsl_matrix_char.h:
@@ -3846,8 +3632,6 @@ quantumvisualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/bits/mathcalls.h:
 
-/usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/opt_random.h:
-
 /usr/include/c++/13.2.1/bits/random.tcc:
 
 /usr/include/c++/13.2.1/bits/specfun.h:
@@ -3855,43 +3639,3 @@ quantumvisualizer_autogen/mocs_compilation.cpp:
 /usr/include/c++/13.2.1/cmath:
 
 /usr/include/c++/13.2.1/complex:
-
-/usr/include/c++/13.2.1/tr1/bessel_function.tcc:
-
-/usr/include/c++/13.2.1/tr1/exp_integral.tcc:
-
-/usr/include/c++/13.2.1/tr1/hypergeometric.tcc:
-
-/usr/include/c++/13.2.1/tr1/legendre_function.tcc:
-
-/usr/include/c++/13.2.1/tr1/modified_bessel_func.tcc:
-
-/usr/include/qt/QtCore/qshareddata.h:
-
-/usr/include/c++/13.2.1/tr1/poly_hermite.tcc:
-
-/usr/include/bits/pthreadtypes.h:
-
-/usr/include/c++/13.2.1/tr1/poly_laguerre.tcc:
-
-/usr/include/c++/13.2.1/tr1/riemann_zeta.tcc:
-
-/usr/include/bits/stdint-intn.h:
-
-/usr/include/c++/13.2.1/list:
-
-/usr/include/bits/wctype-wchar.h:
-
-/usr/include/c++/13.2.1/tr1/special_function_util.h:
-
-/usr/include/gsl/gsl_block_float.h:
-
-/usr/include/gsl/gsl_block_complex_double.h:
-
-/usr/include/bits/stdlib-float.h:
-
-/usr/include/gsl/gsl_block_complex_float.h:
-
-/usr/include/bits/waitflags.h:
-
-/usr/include/gsl/gsl_block_double.h:

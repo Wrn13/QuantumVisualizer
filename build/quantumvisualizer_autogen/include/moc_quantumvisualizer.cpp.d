@@ -1,5 +1,6 @@
 /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/include/moc_quantumvisualizer.cpp: /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/view/quantumvisualizer.h \
   /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/build/quantumvisualizer_autogen/moc_predefs.h \
+  /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/controller/Box.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -110,6 +111,7 @@
   /usr/include/c++/13.2.1/bits/hash_bytes.h \
   /usr/include/c++/13.2.1/bits/invoke.h \
   /usr/include/c++/13.2.1/bits/ios_base.h \
+  /usr/include/c++/13.2.1/bits/istream.tcc \
   /usr/include/c++/13.2.1/bits/iterator_concepts.h \
   /usr/include/c++/13.2.1/bits/list.tcc \
   /usr/include/c++/13.2.1/bits/locale_classes.h \
@@ -201,6 +203,8 @@
   /usr/include/c++/13.2.1/initializer_list \
   /usr/include/c++/13.2.1/ios \
   /usr/include/c++/13.2.1/iosfwd \
+  /usr/include/c++/13.2.1/iostream \
+  /usr/include/c++/13.2.1/istream \
   /usr/include/c++/13.2.1/iterator \
   /usr/include/c++/13.2.1/limits \
   /usr/include/c++/13.2.1/list \
@@ -306,6 +310,9 @@
   /usr/include/qt/QtCore/qvarlengtharray.h \
   /usr/include/qt/QtCore/qvector.h \
   /usr/include/qt/QtCore/qversiontagging.h \
+  /usr/include/qt/QtGui/QBrush \
+  /usr/include/qt/QtGui/QColor \
+  /usr/include/qt/QtGui/QPen \
   /usr/include/qt/QtGui/qbrush.h \
   /usr/include/qt/QtGui/qcolor.h \
   /usr/include/qt/QtGui/qcursor.h \
@@ -317,27 +324,49 @@
   /usr/include/qt/QtGui/qkeysequence.h \
   /usr/include/qt/QtGui/qmatrix.h \
   /usr/include/qt/QtGui/qpaintdevice.h \
+  /usr/include/qt/QtGui/qpainter.h \
+  /usr/include/qt/QtGui/qpainterpath.h \
   /usr/include/qt/QtGui/qpalette.h \
+  /usr/include/qt/QtGui/qpen.h \
   /usr/include/qt/QtGui/qpixelformat.h \
   /usr/include/qt/QtGui/qpixmap.h \
   /usr/include/qt/QtGui/qpolygon.h \
   /usr/include/qt/QtGui/qregion.h \
   /usr/include/qt/QtGui/qrgb.h \
   /usr/include/qt/QtGui/qrgba64.h \
+  /usr/include/qt/QtGui/qtextoption.h \
   /usr/include/qt/QtGui/qtgui-config.h \
   /usr/include/qt/QtGui/qtguiglobal.h \
   /usr/include/qt/QtGui/qtransform.h \
   /usr/include/qt/QtGui/qwindowdefs.h \
+  /usr/include/qt/QtWidgets/QGraphicsItem \
+  /usr/include/qt/QtWidgets/QGraphicsRectItem \
+  /usr/include/qt/QtWidgets/QGraphicsScene \
+  /usr/include/qt/QtWidgets/QGraphicsView \
   /usr/include/qt/QtWidgets/QMainWindow \
   /usr/include/qt/QtWidgets/QMenuBar \
+  /usr/include/qt/QtWidgets/QPushButton \
   /usr/include/qt/QtWidgets/QStatusBar \
   /usr/include/qt/QtWidgets/QToolBar \
+  /usr/include/qt/QtWidgets/QVBoxLayout \
   /usr/include/qt/QtWidgets/QWidget \
+  /usr/include/qt/QtWidgets/qabstractbutton.h \
+  /usr/include/qt/QtWidgets/qabstractscrollarea.h \
   /usr/include/qt/QtWidgets/qaction.h \
   /usr/include/qt/QtWidgets/qactiongroup.h \
+  /usr/include/qt/QtWidgets/qboxlayout.h \
+  /usr/include/qt/QtWidgets/qframe.h \
+  /usr/include/qt/QtWidgets/qgraphicsitem.h \
+  /usr/include/qt/QtWidgets/qgraphicsscene.h \
+  /usr/include/qt/QtWidgets/qgraphicsview.h \
+  /usr/include/qt/QtWidgets/qgridlayout.h \
+  /usr/include/qt/QtWidgets/qlayout.h \
+  /usr/include/qt/QtWidgets/qlayoutitem.h \
   /usr/include/qt/QtWidgets/qmainwindow.h \
   /usr/include/qt/QtWidgets/qmenu.h \
   /usr/include/qt/QtWidgets/qmenubar.h \
+  /usr/include/qt/QtWidgets/qpushbutton.h \
+  /usr/include/qt/QtWidgets/qscrollarea.h \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
   /usr/include/qt/QtWidgets/qstatusbar.h \
   /usr/include/qt/QtWidgets/qtabwidget.h \

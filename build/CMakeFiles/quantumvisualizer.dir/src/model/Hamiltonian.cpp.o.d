@@ -75,7 +75,9 @@ CMakeFiles/quantumvisualizer.dir/src/model/Hamiltonian.cpp.o: \
  /usr/include/gsl/gsl_block_short.h /usr/include/gsl/gsl_matrix_uchar.h \
  /usr/include/gsl/gsl_vector_uchar.h /usr/include/gsl/gsl_block_uchar.h \
  /usr/include/gsl/gsl_matrix_char.h /usr/include/gsl/gsl_vector_char.h \
- /usr/include/gsl/gsl_block_char.h /usr/include/c++/13.2.1/iostream \
+ /usr/include/gsl/gsl_block_char.h \
+ /home/wrnalp13/Desktop/ProgrammingFiles/CompPhysics/QuantumVisualizer/src/model/../controller/Box.h \
+ /usr/include/c++/13.2.1/iostream \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \
  /usr/include/c++/13.2.1/ostream /usr/include/c++/13.2.1/ios \
  /usr/include/c++/13.2.1/iosfwd /usr/include/c++/13.2.1/bits/stringfwd.h \
