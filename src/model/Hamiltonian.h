@@ -44,16 +44,21 @@ class Hamiltonian{
          */
         const int SPACE_DIMENSION = 2;
 
-    
+
         /**
          * Function to get the ith eigenvector and convert it to matrix form.
          * This is because eigenvectors are stored as an n^2 length list and
          * we might need to convert it to a nicer format.
          */
-        void get_matrix_eigenvector(size_t i);
+        void get_matrix_eigenvector(int v);
+
+        /**
+         *  Function to output the designated energy level to the designated file name.
+         */
+        void output(int level, const std::string & fileName);
 
     private:
-        
+
         gsl_matrix * hamiltonian;
         bool is_diagonal = false;
         int hamiltonianDimension;

@@ -1,5 +1,4 @@
 #include "Potential.h"
-#include "../controller/Box.h"
 #include <gsl/gsl_matrix.h>
 #include <iostream>
 using namespace std;
@@ -20,10 +19,11 @@ void Potential::addPeak(int x0, int x1, int y0, int y1, double peak){
 
 }
 
-void Potential::addPeak(Box box, double peak){
-    for(int i = box.bottom(); i<box.top(); i++){
-        for(int j = box.left(); j<box.right(); ++j){
-            gsl_matrix_set(potential, i , j, gsl_matrix_get(potential,i,j) + peak);
+void Potential::printPotential(){
+    for(int i = 0; i<dimension; ++i){
+        for(int j = 0; j<dimension; ++j){
+            std::cout<< gsl_matrix_get(potential,i,j) <<" ";
         }
+        std::cout<<"\n";
     }
 }

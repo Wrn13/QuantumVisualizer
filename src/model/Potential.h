@@ -1,7 +1,6 @@
 #ifndef H_POTENTIAL
 #define H_POTENTIAL
 #include <gsl/gsl_matrix.h>
-#include "../controller/Box.h"
 /**
  * Class defining the potential matrix.
  *
@@ -16,6 +15,7 @@ class Potential{
         Potential(){
             potential = gsl_matrix_alloc(defaultSize, defaultSize);
             dimension = defaultSize;
+            clearPotential();
         }
         /**
          *  Constructor which takes a single dimension and creates the 2D potential matrix size dim x dim.
@@ -23,6 +23,7 @@ class Potential{
         Potential(size_t dim){
             potential = gsl_matrix_alloc(dim, dim);
             dimension = dim;
+            clearPotential();
         }
         /**
          *  The destructor to free the gsl matrix
@@ -41,10 +42,6 @@ class Potential{
          */
         void addPeak(int x0, int x1, int y0, int y1, double potential);
 
-        /**
-         *  Same as above but with a box object as a parameter instead.
-         */
-        void addPeak(Box box, double potential);
 
         /**
          * Function to return the ith and jth elements of the potential matrix
@@ -55,6 +52,16 @@ class Potential{
          *  Function to return the dimension of the potential.
          */
         double get_dimension(){return dimension;}
+
+        void clearPotential(){
+            for(int i =0; i<dimension; ++i){
+                for(int j =0; j<dimension; ++j){
+                    gsl_matrix_set(potential,i,j,0);
+                }
+            }
+        }
+
+        void printPotential();
     private:
         gsl_matrix * potential;
         size_t dimension;

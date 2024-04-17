@@ -2,12 +2,15 @@
 #include <vector>
 #include <gsl/gsl_vector.h>
 #include <gsl/gsl_matrix.h>
+#include <fstream>
 #include "modules/lambda-lanczos/include/lambda_lanczos/lambda_lanczos.hpp"
 using namespace std;
 
 Hamiltonian::Hamiltonian (Potential p, int n, double delta){
+    cout<<"GOT TO CONSTRUCTOR!";
     //Set all constants
     hamiltonianDimension = n*n;
+    hamiltonian = gsl_matrix_calloc(hamiltonianDimension, hamiltonianDimension);
     double invDeltaSquared = 1./delta/delta;
     //Directions of neighbors. Only need to search across and below to avoid double counting
     vector<vector<int>>directions= {{1,0}, {0,1}};
@@ -16,7 +19,6 @@ Hamiltonian::Hamiltonian (Potential p, int n, double delta){
         //Loop for each index in the potential
         for(int c = 0; c<n; ++c){
             int j = n*r +c;
-
             //Set the diagonal element to the corresponding value
             gsl_matrix_set(hamiltonian, j, j, p.get_Vij(r,c) + SPACE_DIMENSION * invDeltaSquared);
             //Set off diagonal elements
@@ -30,6 +32,9 @@ Hamiltonian::Hamiltonian (Potential p, int n, double delta){
             }
         }
     }
+    eigenvector = gsl_matrix_alloc(n,n);
+    cout<<"FINISHED ALLOCATING\n";
+    is_diagonal = false;
 }
 
 
@@ -47,12 +52,31 @@ void Hamiltonian::diagonalize(){
     //Compute eigenvalues and eigenvectors
     lambda_lanczos::LambdaLanczos <double> engine (mv_mul, hamiltonianDimension, true, 2);
     engine.run(eigenvalues, eigenvectors);
-
     //Mark as finished
     is_diagonal = true;
 }
 
-void Hamiltonian::get_matrix_eigenvector(size_t i){
-    eigenvector = gsl_matrix_alloc(sqrt(hamiltonianDimension), sqrt(hamiltonianDimension));
+void Hamiltonian::get_matrix_eigenvector(int v){
+    int n = sqrt(hamiltonianDimension);
+    for(int i =0; i<n; ++i){
+        for(int j =0; j<n; ++j){
+            gsl_matrix_set(eigenvector,i,j,eigenvectors[v][n*i+j]);
+        }
+    }
+
+}
+
+void Hamiltonian::output(int l, const std::string & fileName){
+    
+    get_matrix_eigenvector(l);
+    ofstream outputFile (fileName.c_str());
+    get_matrix_eigenvector(l);
+
+    int n = sqrt(hamiltonianDimension);
+    for(int i = 0; i<n; ++i){
+        for(int j =0; j<n; ++j){
+            outputFile << i<< " "<< j<< " "<< gsl_matrix_get(eigenvector, i,j) <<"\n";
+        }
+    }
 }
 

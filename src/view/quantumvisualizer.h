@@ -5,21 +5,30 @@
 #include <QScopedPointer>
 #include <QWidget>
 #include <QToolBar>
+#include <QTextEdit>
 #include <QPushButton>
 #include <QVBoxLayout>
+#include <QHBoxLayout>
+#include <QFormLayout>
 #include <QMenuBar>
 #include <QStatusBar>
+#include <QLabel>
 #include <vector>
 #include <QGraphicsScene>
 #include <QGraphicsView>
 #include <QGraphicsItem>
+#include <QGraphicsPolygonItem>
+#include <QFileDialog>
+#include <QPolygonF>
+#include <QGraphicsSimpleTextItem>
 #include <QGraphicsRectItem>
 #include <QPen>
 #include <QBrush>
 #include <QColor>
+#include <sstream>
 #include <iostream>
+#include <math.h>
 #include <unordered_map>
-#include "../controller/Box.h"
 #include <qt/QtCore/qglobal.h>
 #include <qt/QtCore/qobjectdefs.h>
 #include <qt/QtWidgets/qmainwindow.h>
@@ -38,9 +47,8 @@ public:
     void addPotentialBox();
 
 private slots:
-    void save();
+    void close();
     void update();
-    void addNewPotential();
 
 private:
     QScopedPointer<Ui::QuantumVisualizer> m_ui;
@@ -51,8 +59,7 @@ private:
     QMenuBar *menuBar;
     QStatusBar *statusBar;
     QPushButton *btnSubmit;
-    QVBoxLayout *potentialGroup;
-    QHBoxLayout *potentialSpecifications;
+    QFormLayout *potentialSpecifications;
 
     int potentialCount = 0;
     int selectedPotential;
@@ -66,8 +73,7 @@ private:
 
     QPen *outlinePen;
 
-    std::vector<QGraphicsRectItem*> potentialBoxes;
-    std::vector<Box> potentialList;
+    std::vector<QGraphicsItemGroup*> potentialBoxes;
     std::vector<double> potentialPeaks;
 };
 
