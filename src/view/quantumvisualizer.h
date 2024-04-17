@@ -13,6 +13,7 @@
 #include <QMenuBar>
 #include <QStatusBar>
 #include <QLabel>
+#include <QRectF>
 #include <vector>
 #include <QGraphicsScene>
 #include <QGraphicsView>
@@ -45,10 +46,12 @@ public:
     explicit QuantumVisualizer(QWidget *parent = nullptr);
     ~QuantumVisualizer();
     void addPotentialBox();
+    const double SCENE_DIMENSION = 900;
 
 private slots:
     void close();
     void update();
+    void repaint();
 
 private:
     QScopedPointer<Ui::QuantumVisualizer> m_ui;
@@ -68,12 +71,13 @@ private:
      */
     std::unordered_map<int, const char *>INT_TO_COLOR = {
         {0,"grey"}, {1,"red"}, {2,"orange"}, {3,"yellow"}, {4,"green"},
-        {5,"blue"}, {6,"purple"}, {7,"brown"}, {8,"lightstellblue"}
+        {5,"blue"}, {6,"purple"}, {7,"brown"}, {8,"lightsteelblue"}, {9,"pink"}
     };
 
     QPen *outlinePen;
 
     std::vector<QGraphicsItemGroup*> potentialBoxes;
+    std::vector<QGraphicsRectItem*> potentialBox;
     std::vector<double> potentialPeaks;
 };
 

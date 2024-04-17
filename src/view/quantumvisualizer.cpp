@@ -2,6 +2,7 @@
 #include "../model/Potential.h"
 #include "ui_quantumvisualizer.h"
 #include "../model/Hamiltonian.h"
+#include "../controller/GnuplotPipe.h"
 #include <iomanip>
 /**
  *  Initialize all objects
@@ -13,7 +14,7 @@ QuantumVisualizer::QuantumVisualizer(QWidget *parent):
     this->setMouseTracking(true);
     centralWidget = m_ui->centralWidget;
     scene = new QGraphicsScene(this);
-    scene->setSceneRect(0,0,900,900);
+    scene->setSceneRect(0,0,SCENE_DIMENSION,SCENE_DIMENSION);
     potentialSpecifications = m_ui -> PotentialSpecifications;
     btnSubmit = m_ui -> BtnSubmit;
     drawView = m_ui -> DrawView;
@@ -46,13 +47,20 @@ void QuantumVisualizer:: addPotentialBox(){
     rect1Text = scene->addSimpleText(QString::number(selectedPotential));
     
     //Group them together and set flags
+   /*
     QList<QGraphicsItem *> group;
     group.append(rectangle1);
     group.append(rect1Text);
+    */
+    rect1Text->setParentItem(rectangle1);
+    /*
     QGraphicsItemGroup * rectangleGroup = scene -> createItemGroup(group);
     rectangleGroup->setFlag(QGraphicsItem::ItemIsMovable);
     rectangleGroup->setFlag(QGraphicsItem::ItemIsFocusable);
     rectangleGroup ->setFlag(QGraphicsItem::ItemIsSelectable);
+    */
+    rectangle1->setFlag(QGraphicsItem::ItemIsMovable);
+    potentialBox.push_back(rectangle1);
 
     //Create potential textbox for value
     QTextEdit * PotentialValue2 = new QTextEdit();
@@ -60,7 +68,6 @@ void QuantumVisualizer:: addPotentialBox(){
     sprintf(potentialLabel, "&Potential %d", selectedPotential);
     potentialSpecifications->addRow(tr(potentialLabel), PotentialValue2);
 
-    potentialBoxes.push_back(rectangleGroup);
     selectedPotential = potentialBoxes.size()-1;
     potentialCount++;
 }
@@ -70,16 +77,21 @@ QuantumVisualizer::~QuantumVisualizer(){
 }
 
 void QuantumVisualizer:: update(){
-    selectedPotential = potentialBoxes.size();
+    selectedPotential = potentialBox.size();
     addPotentialBox();
     std::cout <<" GOT TO UPDATE SLOT!!!!\n";
     
 }
 
+void QuantumVisualizer:: repaint(){
+    
+
+}
+
 /**
  *  Quick helper function to bound the scene rectangles.
  */
-void boud(int &x, int max){
+void bound(double &x, int max){
     if (x<0){
         x=0;
     }else if(x>=max){
@@ -94,22 +106,31 @@ void QuantumVisualizer :: close(){
         potentialPeaks.push_back(((QTextEdit*)result) -> toPlainText().toDouble());
 
     }
+
     /*
      * TODO: Allow variable sized potentials.
      */
-
     Potential p(90);
     double x1,x2,y1,y2;
     for(int i = 0; i<potentialCount; ++i){
-        potentialBoxes[i]->boundingRect().getCoords(&x1,&y1,&x2,&y2);
-        bound()
-        std::cout<<std::setprecision(3)<<"Coords: x1: " << x1 <<" x2: " << x2 <<" y1: " <<y1 <<" y2: " << y2 <<"\n";
+        //For some reason rect only gave the bounding size, need to use pos instead.
+        auto point = potentialBox[i]->pos();
+        x1 = point.x();
+        y1= point.y();
+        x2 = x1+100;
+        y2= y1+100;
+        
+        bound(x1, SCENE_DIMENSION);
+        bound(x2, SCENE_DIMENSION);
+        bound(y1, SCENE_DIMENSION);
+        bound(y1, SCENE_DIMENSION);
+        std::cout<<std::setprecision(3)<<"Coords: x1: " << x1 <<" x2: " << x2 <<" y1: " << y1 <<" y2: " << y2 <<"\n";
         p.addPeak(floor(x1/10),floor(x2/10),floor(y1/10),floor(y2/10), potentialPeaks[i]);
     }
     std::cout<<"Added all potentials.\n";
     //p.printPotential();
     
-    Hamiltonian h (p,90,.1);
+    Hamiltonian h (p,90,.01);
     
     h.diagonalize();
     std::cout<<"DIAGONALIZED!\n";
@@ -117,6 +138,8 @@ void QuantumVisualizer :: close(){
     QString fileName = QFileDialog::getSaveFileName(this,tr("Save Data File"), "", tr("Data Files (*.dat)"));
 
     h.output(0, fileName.toStdString());
+
+    //GnuplotPipe();
 
 }
 #include "moc_quantumvisualizer.cpp"
