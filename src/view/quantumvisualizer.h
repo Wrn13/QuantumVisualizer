@@ -34,26 +34,48 @@
 #include <qt/QtCore/qobjectdefs.h>
 #include <qt/QtWidgets/qmainwindow.h>
 
+/**
+ *  Namespace holding ui stuff from compiled codes.
+ */
 namespace Ui {
     class QuantumVisualizer;
 }
 
+/**
+ * Main application class
+ */
 class QuantumVisualizer : public QMainWindow
 {
+    //Macro for Qt Stuff
     Q_OBJECT
 
 public:
+    /**
+     * Creates an application with no parent.
+     */
     explicit QuantumVisualizer(QWidget *parent = nullptr);
+    //Destructor
     ~QuantumVisualizer();
+    /**
+     * Adds another potential peak to the potential.
+     */
     void addPotentialBox();
+
+    /**
+     * Constant for the size of the Graphics Scene in Scene Coordinates.
+     */
     const double SCENE_DIMENSION = 900;
 
+    /**
+     *  Event handlers overriden for use. Signals connected via UI file
+     */
 private slots:
     void hide();
     void update();
-    void repaint();
+
 
 private:
+    //Fields for each of the UI elements
     QScopedPointer<Ui::QuantumVisualizer> m_ui;
     QWidget *centralWidget;
     QGraphicsScene * scene;
@@ -64,7 +86,9 @@ private:
     QPushButton *btnSubmit;
     QFormLayout *potentialSpecifications;
 
+    //Number of potentials
     int potentialCount = 0;
+    //Selected potential
     int selectedPotential;
     /**
      * Map to take in the selected potential index and output its color.
@@ -74,10 +98,18 @@ private:
         {5,"blue"}, {6,"purple"}, {7,"brown"}, {8,"lightsteelblue"}, {9,"pink"}
     };
 
+    /**
+     *  Pen to outline the rectanglular peaks.
+     */
     QPen *outlinePen;
 
-    std::vector<QGraphicsItemGroup*> potentialBoxes;
+    /**
+     * Stores a pointer to each potential peak on the graphics scene.
+     */
     std::vector<QGraphicsRectItem*> potentialBox;
+    /**
+     *  Stores the values of each peak.
+     */
     std::vector<double> potentialPeaks;
 };
 

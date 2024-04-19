@@ -59,9 +59,15 @@ class Hamiltonian{
         void output(int level, const std::string & fileName);
 
 
+        /**
+         *  Debug function to print a part of the hamiltonian.
+         */
         void printHamiltonian();
     private:
 
+        /**
+         * Private fields holding the hamiltonian matrix, state of the matrix, dimension, eigenvalues, eigenvector list, and specific eigenvector.
+         */
         gsl_matrix * hamiltonian;
         bool is_diagonal = false;
         int hamiltonianDimension;

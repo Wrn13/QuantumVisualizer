@@ -7,7 +7,6 @@
 using namespace std;
 
 Hamiltonian::Hamiltonian (Potential p, int n, double delta){
-    cout<<"GOT TO CONSTRUCTOR!";
     //Set all constants
     hamiltonianDimension = n*n;
     hamiltonian = gsl_matrix_calloc(hamiltonianDimension, hamiltonianDimension);
@@ -32,8 +31,10 @@ Hamiltonian::Hamiltonian (Potential p, int n, double delta){
             }
         }
     }
+    /*
+     *  Allocate eigenvector matrix.
+     */
     eigenvector = gsl_matrix_alloc(n,n);
-    cout<<"Finished Allocating\n";
     is_diagonal = false;
 }
 
@@ -49,12 +50,15 @@ void Hamiltonian::diagonalize(){
     };
 
     //Compute eigenvalues and eigenvectors
-    lambda_lanczos::LambdaLanczos <double> engine (mv_mul, hamiltonianDimension, false, 1);
+    lambda_lanczos::LambdaLanczos <double> engine (mv_mul, hamiltonianDimension, false, 2);
     engine.run(eigenvalues, eigenvectors);
     //Mark as finished
     is_diagonal = true;
 }
 
+/**
+ *  Sets the v'th eigenvector to the gsl matrix representation.
+ */
 void Hamiltonian::get_matrix_eigenvector(int v){
     int n = sqrt(hamiltonianDimension);
     for(int i =0; i<n; ++i){
@@ -64,6 +68,7 @@ void Hamiltonian::get_matrix_eigenvector(int v){
     }
 
 }
+
 
 void Hamiltonian::printHamiltonian(){
     for(int i = 0; i < 30; ++i){
@@ -75,20 +80,27 @@ void Hamiltonian::printHamiltonian(){
 
 }
 
+/**
+ *  Output's the l'th eigenvector to the specified file.
+ */
 void Hamiltonian::output(int l, const std::string & fileName){
     
+    //  Create file and initialize eigenvector.
     ofstream outputFile (fileName.c_str());
     get_matrix_eigenvector(l);
 
     cout<<"Eigenvalue for l=" << l <<" is " << eigenvalues[l]<<"\n";
 
+    //Output data
     int n = sqrt(hamiltonianDimension);
     for(int i = 0; i<n; ++i){
         for(int j =0; j<n; ++j){
             outputFile << i<< " "<< j<< " "<< gsl_matrix_get(eigenvector, i,j) <<"\n";
         }
     }
-    cout<<"Output file created.\n";
+
+    //Close file
     outputFile.close();
+    cout<<"Output file created.\n";
 }
 

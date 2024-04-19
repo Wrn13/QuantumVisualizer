@@ -8,7 +8,7 @@
 class Potential{
     public:
         //Default dimension of the potential
-        const int defaultSize = 50;
+        const int defaultSize = 90;
         /**
          *  Default constructor for size defaultSize.
          */
@@ -54,6 +54,9 @@ class Potential{
          */
         double get_dimension(){return dimension;}
 
+        /**
+         *  Function to clear the potential matrix.
+         */
         void clearPotential(){
             for(int i =0; i<dimension; ++i){
                 for(int j =0; j<dimension; ++j){
@@ -62,8 +65,14 @@ class Potential{
             }
         }
 
+        /**
+         *  Debug function to print potential
+         */
         void printPotential();
     private:
+        /**
+         * Fields to store potential matrix and dimension.
+         */
         gsl_matrix * potential;
         size_t dimension;
 
