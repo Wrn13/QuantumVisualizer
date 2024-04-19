@@ -34,3 +34,6 @@ drag the rectangle to your heart's content.
 Once you are done, click on the Generate Wavefunction button. This will compute the wavefunction, and after some
 time, launch Gnuplot with the wavefunction graphed. After 30 seconds or after you close the window,
 the application will close.
+
+## Status
+4-18-24 - Yes I know the wavefunction isn't being generated properly. The hamiltonian is being created properly however.
