@@ -173,9 +173,10 @@ void QuantumVisualizer :: hide(){
 
     //Open plot and wait before closing the application.
     gnuplotTerm.init();
-    sleep(30);
+    sleep(10);
+    
+    std::cout<<"Done.";
     
     this->close();
-
 }
 #include "moc_quantumvisualizer.cpp"

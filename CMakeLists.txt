@@ -38,6 +38,9 @@ install(TARGETS quantumvisualizer DESTINATION bin)
 # Create testing target
 add_executable(QuantumVisualizerTest src/tests/QuantumVisualizerTest.cpp)
 
+target_link_libraries(QuantumVisualizerTest Qt5::Widgets)
+target_link_libraries(QuantumVisualizerTest GSL::gsl GSL::gslcblas)
+
 #Enable Testing Functionality
 enable_testing()
 
