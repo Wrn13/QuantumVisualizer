@@ -106,7 +106,7 @@
    <sender>BtnSubmit</sender>
    <signal>clicked()</signal>
    <receiver>QuantumVisualizer</receiver>
-   <slot>close()</slot>
+   <slot>hide()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>1443</x>

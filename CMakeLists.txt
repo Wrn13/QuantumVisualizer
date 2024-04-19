@@ -21,6 +21,7 @@ set(quantumvisualizer_SRC
   src/view/quantumvisualizer.cpp
   src/model/Hamiltonian.cpp
   src/model/Potential.cpp
+  src/controller/GnuplotPipe.cpp
 )
 
 # Tell CMake to create the helloworld executable

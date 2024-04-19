@@ -28,10 +28,11 @@ class Potential{
         /**
          *  The destructor to free the gsl matrix
          */
-        ~Potential(){
+       /* ~Potential(){
             gsl_matrix_free(potential);
 
         }
+        */
         /**
          *  Function to add a constant peak to the current potential matrix.
          *  @param x0 the left index of the peak

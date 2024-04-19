@@ -20,37 +20,36 @@ Hamiltonian::Hamiltonian (Potential p, int n, double delta){
         for(int c = 0; c<n; ++c){
             int j = n*r +c;
             //Set the diagonal element to the corresponding value
-            gsl_matrix_set(hamiltonian, j, j, p.get_Vij(r,c) + SPACE_DIMENSION * invDeltaSquared);
+            gsl_matrix_set(hamiltonian, j, j, p.get_Vij(c,r) + SPACE_DIMENSION * invDeltaSquared);
             //Set off diagonal elements
             for(auto direction : directions){
                 int dx = direction[0];
                 int dy = direction[1];
                 //Make sure we are at a valid position
-                if(j+dx <n*n && j+dy < n*n){
-                    gsl_matrix_set(hamiltonian, j + dx, j, -0.5 * invDeltaSquared);
+                if(j+dx < hamiltonianDimension && j+dy < hamiltonianDimension){
+                    gsl_matrix_set(hamiltonian, j + dx, j+dy, -0.5 * invDeltaSquared);
                 }
             }
         }
     }
     eigenvector = gsl_matrix_alloc(n,n);
-    cout<<"FINISHED ALLOCATING\n";
+    cout<<"Finished Allocating\n";
     is_diagonal = false;
 }
 
 
 void Hamiltonian::diagonalize(){
     //This lambda multiplies a matrix by a vector to be used in the lanczos algorithm
-    auto mv_mul = [&](const vector<double> in, vector<double>  out){
+    auto mv_mul = [&](const vector<double>& in, vector<double>& out){
         for(int i =0; i < hamiltonianDimension; ++i){
             for(int j =0; j<hamiltonianDimension; ++j){
                 out[i] = gsl_matrix_get(hamiltonian, i, j) * in[j];
-
             }
         }
     };
 
     //Compute eigenvalues and eigenvectors
-    lambda_lanczos::LambdaLanczos <double> engine (mv_mul, hamiltonianDimension, true, 2);
+    lambda_lanczos::LambdaLanczos <double> engine (mv_mul, hamiltonianDimension, false, 1);
     engine.run(eigenvalues, eigenvectors);
     //Mark as finished
     is_diagonal = true;
@@ -66,11 +65,22 @@ void Hamiltonian::get_matrix_eigenvector(int v){
 
 }
 
+void Hamiltonian::printHamiltonian(){
+    for(int i = 0; i < 30; ++i){
+        for(int j = 0; j<30; ++j){
+            cout<<gsl_matrix_get(hamiltonian, i, j) <<" ";
+        }
+        cout<<"\n";
+    }
+
+}
+
 void Hamiltonian::output(int l, const std::string & fileName){
     
-    get_matrix_eigenvector(l);
     ofstream outputFile (fileName.c_str());
     get_matrix_eigenvector(l);
+
+    cout<<"Eigenvalue for l=" << l <<" is " << eigenvalues[l]<<"\n";
 
     int n = sqrt(hamiltonianDimension);
     for(int i = 0; i<n; ++i){
@@ -78,5 +88,7 @@ void Hamiltonian::output(int l, const std::string & fileName){
             outputFile << i<< " "<< j<< " "<< gsl_matrix_get(eigenvector, i,j) <<"\n";
         }
     }
+    cout<<"Output file created.\n";
+    outputFile.close();
 }
 

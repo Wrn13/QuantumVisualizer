@@ -4,6 +4,7 @@
 #include "../model/Hamiltonian.h"
 #include "../controller/GnuplotPipe.h"
 #include <iomanip>
+#include <unistd.h>
 /**
  *  Initialize all objects
  */
@@ -99,7 +100,7 @@ void bound(double &x, int max){
     }
 }
 
-void QuantumVisualizer :: close(){
+void QuantumVisualizer :: hide(){
     while(potentialSpecifications->rowCount()){
         auto result = potentialSpecifications->takeRow(0).fieldItem->widget();
         std::cout<<"Entered: " <<((QTextEdit*)result) -> toPlainText().toDouble()<<"\n";
@@ -130,16 +131,26 @@ void QuantumVisualizer :: close(){
     std::cout<<"Added all potentials.\n";
     //p.printPotential();
     
-    Hamiltonian h (p,90,.01);
-    
+    Hamiltonian h (p,90,.1);
+    std::cout<<"Hamiltonian:\n";
+    h.printHamiltonian();
+
     h.diagonalize();
     std::cout<<"DIAGONALIZED!\n";
 
     QString fileName = QFileDialog::getSaveFileName(this,tr("Save Data File"), "", tr("Data Files (*.dat)"));
-
     h.output(0, fileName.toStdString());
 
-    //GnuplotPipe();
+    
+    auto gnuplotTerm = GnuplotPipe();
+    gnuplotTerm.set_title("Ground State Wavefunction");
+    gnuplotTerm.set_xlabel("x");
+    gnuplotTerm.set_ylabel("y");
+    gnuplotTerm.set_filename(fileName.toStdString().c_str());
+
+    gnuplotTerm.init();
+    sleep(30);
+    this->close();
 
 }
 #include "moc_quantumvisualizer.cpp"

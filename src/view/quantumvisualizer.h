@@ -49,7 +49,7 @@ public:
     const double SCENE_DIMENSION = 900;
 
 private slots:
-    void close();
+    void hide();
     void update();
     void repaint();
 
