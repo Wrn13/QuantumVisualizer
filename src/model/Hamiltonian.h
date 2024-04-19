@@ -17,11 +17,12 @@ class Hamiltonian{
          */
         Hamiltonian(Potential p, int n, double delta);
 
-       /* ~Hamiltonian(){
+        ~Hamiltonian(){
             gsl_matrix_free(hamiltonian);
             gsl_matrix_free(eigenvector);
+            
         }
-        */
+        
         /**
          * Diagonalize the matrix.
          * Requires is_diagonalized == true. 

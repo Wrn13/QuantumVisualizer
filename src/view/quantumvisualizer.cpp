@@ -78,8 +78,8 @@ void QuantumVisualizer:: addPotentialBox(){
     //Add potential to the form layout
     potentialSpecifications->addRow(tr(potentialLabel), PotentialValue2);
 
-    //Select last po
-    selectedPotential = potentialBoxes.size()-1;
+    //Select last potential
+    selectedPotential = potentialBox.size()-1;
     potentialCount++;
 }
 
