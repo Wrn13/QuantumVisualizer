@@ -9,6 +9,10 @@ You need Qt5 and CMake 2.8.11 or higher, as well as Gnunplot installed
 and added to your path
 
 -- Build instructions --
+Use 
+$git clone --recurse-submodules -j3 https://github.com/Wrn13/QuantumVisualizer
+to download the project.
+
 Inside the project's directory:
 
 mkdir build
