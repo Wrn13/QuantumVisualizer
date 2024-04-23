@@ -20,19 +20,22 @@ class Potential{
         /**
          *  Constructor which takes a single dimension and creates the 2D potential matrix size dim x dim.
          */
-        Potential(size_t dim){
+        explicit Potential(size_t dim){
             potential = gsl_matrix_alloc(dim, dim);
             dimension = dim;
             clearPotential();
         }
+        
         /**
          *  The destructor to free the gsl matrix
          */
+        /*
         ~Potential(){
             gsl_matrix_free(potential);
 
         }
-        
+        */
+
         /**
          *  Function to add a constant peak to the current potential matrix.
          *  @param x0 the left index of the peak
