@@ -120,11 +120,24 @@ GnuplotPipe::init ( )
     gnuplot_cmd (cmd_stream.str());
   }
 
+    // Different things to try to make the graphs look prettier.
+  cmd_stream.str("");
+  cmd_stream << "set contour base";
+  gnuplot_cmd(cmd_stream.str());
+
+
+  //Use PM3D
+  cmd_stream.str("");
+  cmd_stream << "set pm3d\nset hidden3d\nset grid\n";
+  gnuplot_cmd(cmd_stream.str());
+
+
+
   // this string sets up the plots 
   cmd_stream.str ("");
   cmd_stream << "splot \"" << filename 
              << "\" using 1:2:3 title \"" << plot_title 
-             << "\" w surface"; 
+             << "\" w pm3d" ; 
   plot_cmd = cmd_stream.str();
   gnuplot_cmd(plot_cmd);
   

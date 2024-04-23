@@ -14,7 +14,7 @@ QuantumVisualizer::QuantumVisualizer(QWidget *parent):
     //Generate UI Classes
     m_ui->setupUi(this);
 
-    //Initialize various parts of the UI
+    //Grab pointers various parts of the UI which are auto-generated
     this->setMouseTracking(true);
     centralWidget = m_ui->centralWidget;
     scene = new QGraphicsScene(this);
@@ -115,7 +115,7 @@ void QuantumVisualizer :: hide(){
     //TODO: Add sanitization on inputs.
     while(potentialSpecifications->rowCount()){
         auto result = potentialSpecifications->takeRow(0).fieldItem->widget();
-        std::cout<<"Entered: " <<((QTextEdit*)result) -> toPlainText().toDouble()<<"\n";
+        //std::cout<<"Entered: " <<((QTextEdit*)result) -> toPlainText().toDouble()<<"\n";
         potentialPeaks.push_back(((QTextEdit*)result) -> toPlainText().toDouble());
     }
 
@@ -150,8 +150,9 @@ void QuantumVisualizer :: hide(){
     std::cout<<"Added all potentials.\n";
     //p.printPotential();
     
-    //Create Hamiltonian, let delta be .1
-    Hamiltonian h (p,90,1);
+    //Create Hamiltonian, let delta be 1/90
+    Hamiltonian h (p,90, 1./90.);
+    
     //std::cout<<"Hamiltonian:\n";
     //h.printHamiltonian();
 
@@ -173,7 +174,7 @@ void QuantumVisualizer :: hide(){
 
     //Open plot and wait before closing the application.
     gnuplotTerm.init();
-    sleep(10);
+    sleep(20);
     
     std::cout<<"Done.";
     

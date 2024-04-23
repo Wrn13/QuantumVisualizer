@@ -49,7 +49,7 @@ void Hamiltonian::diagonalize(){
         }
     };
 
-    //Compute eigenvalues and eigenvectors
+    //Compute first two lowest eigenvectors
     lambda_lanczos::LambdaLanczos <double> engine (mv_mul, hamiltonianDimension, false, 2);
     engine.run(eigenvalues, eigenvectors);
     //Mark as finished
@@ -71,6 +71,7 @@ void Hamiltonian::get_matrix_eigenvector(int v){
 
 
 void Hamiltonian::printHamiltonian(){
+    //Prints out the 30x30 block of the hamiltonian matrix
     for(int i = 0; i < 30; ++i){
         for(int j = 0; j<30; ++j){
             cout<<gsl_matrix_get(hamiltonian, i, j) <<" ";
@@ -91,12 +92,14 @@ void Hamiltonian::output(int l, const std::string & fileName){
 
     cout<<"Eigenvalue for l=" << l <<" is " << eigenvalues[l]<<"\n";
 
+    outputFile <<"#x     y      psi(x,y)\n";
     //Output data
     int n = sqrt(hamiltonianDimension);
     for(int i = 0; i<n; ++i){
         for(int j =0; j<n; ++j){
             outputFile << i<< " "<< j<< " "<< gsl_matrix_get(eigenvector, i,j) <<"\n";
         }
+        outputFile<<"\n";
     }
 
     //Close file

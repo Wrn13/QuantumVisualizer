@@ -6,14 +6,11 @@ build/quantumvisualizer_autogen/include/moc_quantumvisualizer.cpp
 build/quantumvisualizer_autogen/include/ui_quantumvisualizer.h
 build/quantumvisualizer_autogen/moc_predefs.h
 build/quantumvisualizer_autogen/mocs_compilation.cpp
-src/controller/Box.h
 src/main.cpp
+src/model/Hamiltonian.cpp
+src/model/Hamiltonian.h
 src/model/Potential.cpp
 src/model/Potential.h
-src/view/PotentialSpecifications.cpp
-src/view/PotentialSpecifications.h
-src/view/drawArea.cpp
-src/view/drawArea.h
 src/view/quantumvisualizer.cpp
 src/view/quantumvisualizer.h
 src/view/quantumvisualizer.ui
