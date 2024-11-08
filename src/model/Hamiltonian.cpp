@@ -44,7 +44,7 @@ void Hamiltonian::diagonalize(){
     auto mv_mul = [&](const vector<double>& in, vector<double>& out){
         for(int i =0; i < hamiltonianDimension; ++i){
             for(int j =0; j<hamiltonianDimension; ++j){
-                out[i] = gsl_matrix_get(hamiltonian, i, j) * in[j];
+                out[i] += gsl_matrix_get(hamiltonian, i, j) * in[j];
             }
         }
     };
